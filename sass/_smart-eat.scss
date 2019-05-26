@@ -1,0 +1,1140 @@
+// smart_warp
+
+.warp_smart{
+    background-color:$brand-white;
+}
+
+// smart_start
+
+.smart_start{
+    background-image: url(/images/smart-eat/eat_start_bc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 414px) {
+        display: none;
+    }
+}
+.smart_start_phone_bc{
+    @media screen and (max-width: 414px) {
+        display: block;
+        background-image: url(/images/smart-eat/smart_start_phone_bc.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.start_title{
+    padding: 14%;
+    h2{
+        font-size: 60px;
+        font-family: $brand-primary;
+        color:$brand-white;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+        font-weight: 600;
+        @media screen and (max-width: 414px) {
+            font-size: 50px;
+        }
+        
+    }
+    .smart_word{
+        display: inline-block;
+        border-bottom: 4px solid #fff;
+        padding: 5px 0;
+    }
+    
+}
+.smart_start_phone{
+    width: 34vw;
+    position: relative;
+    margin-top: -15%;
+    @media screen and (max-width: 1800px) {
+        width: 29vw;
+    }
+    @media screen and (max-width: 1300px) {
+        width: 42vw;
+        margin-top: -21%;
+    }
+    @media screen and (max-width: 1200px) {
+        width: 41vw;
+        margin-top: -21%;
+    }
+    @media screen and (max-width: 768px) {
+        width: 47vw;
+    }
+    @media screen and (max-width: 414px) {
+        width: 81vw;
+        margin-left: 3%;
+        margin-top: -18%;
+    }
+}
+.smart_start_pic{
+    width: 15vw;
+    margin: 0 5% 0 20%;
+    @media screen and (max-width: 414px) {
+        display: none;
+    }
+}
+.start_word{
+    margin: 3% auto;
+    width: 40vw;
+    @media screen and (max-width: 414px) {
+        margin: 16% auto;
+        width: 74vw;
+    }
+}
+.start_ul{
+    ul{
+        margin: 4% 3%;
+        text-align: center;
+        padding-left: 11%;
+        li{
+            list-style: none;
+            text-align: center;
+            margin: 2% 0;
+            display:inline-block;
+            img{
+                width: 4vw;
+                margin: 0 15px 25px 0;
+                @media screen and (max-width: 414px) {
+                    width: 15vw;
+                }
+            }
+            .smart_four_point{
+                display: inline-block;
+                text-align:initial;
+                h3{
+                    font-size: 15px;
+                    margin-bottom: 0;
+                }
+                .smart_li_word{
+                    font-size: 12px;
+                    margin-bottom: 0;
+                    @media screen and (max-width: 414px) {
+                        width: 52vw;
+                    }
+                }
+            }
+        }
+    }
+}
+.smart_start_about{
+    img{
+        width: 5vw;
+        margin-left: 72%;
+        @media screen and (max-width: 414px) {
+            width: 15vw;
+        }
+    }
+    .smart_start_block{
+        border: 1px solid #FEB100;
+        border-radius:5px;
+        margin: 0 10%; 
+        @media screen and (max-width: 1200px) {
+            text-align: center;
+        }
+        img{
+            width: 4.5vw;
+            margin: 0 6% 3% 6%;
+            @media screen and (max-width: 414px) {
+                width: 13vw;
+                margin: 7% 6% 3% 6%;
+            }
+        }
+        .start_about_word{
+            display: inline-block;
+            margin: 7% 0;
+            width: 40vw;
+            @media screen and (max-width: 414px) {
+                width: 50vw;
+                margin: 4% 0 15% 0;
+            }
+        }
+    }
+}
+
+
+
+// smart2_store
+.smart2_store{
+    .smart2_store_title{
+        text-align: center;
+        margin: 8% 0;
+        .smart2_pic{
+            width: 11vw;
+            margin: 5%;
+            @media screen and (max-width: 414px) {
+                width: 22vw;
+            }
+        }
+        .smart2_line{
+            width: .1vw;
+            margin: 6%;
+            @media screen and (max-width: 414px) {
+                width: .2vw;
+            }
+        }
+        .title_word{
+            margin: 2% auto;
+            font-size: 15px;
+            font-weight: 500;
+            width: 100%;
+            @media screen and (max-width: 414px) {
+                margin: 6% auto 15% auto;
+            }
+        }
+    }
+}
+
+// smart2_content
+
+.smart2_content{
+    background-image: url(/images/smart-eat/smart2_store_bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 1200px) {
+        background-image: url(/images/smart-eat/smart2_store_bc_small.png);
+    }
+    
+}
+// .smart2_content_small{
+//     background-image: url(/images/smart-eat/smart2_store_bc_small.png);
+//     background-size: 100%;
+//     background-repeat: no-repeat;
+//     @media screen and (max-width: 1200px) {
+//         display: block;
+//     }
+//     @media screen and (max-width: 414px) {
+//         background-image: none;
+//         background-color: #fff;
+//     }
+// }
+
+.smart2_block1{
+    text-align: center;
+    h2{
+        font-size: 15px;
+        border: 1.4px solid #FEB100;
+        display: block;
+        border-radius: 5px;
+        padding: 1.8% 0 1.5% 0;
+        width: 13vw;
+        text-align: center;
+        margin: 0 auto;
+        color: #FEB100;
+        font-weight: 500;
+        background-color: #fff;
+        @media screen and (max-width: 414px) {
+            width: 37vw;
+            padding: 5% 3% 4% 3%;
+            background-color: #fff;
+        }
+    }
+    .smart2_block1_pic{
+        width: 43vw;
+        margin: 3% 0;
+        @media screen and (max-width: 414px) {
+            width: 91vw;
+            margin: 8% 0;
+        }
+    }
+}
+.smart2_block2{
+    .block2_title{
+        display: block;
+        text-align: center;
+        @media screen and (max-width: 1450px) {
+            margin-top: 5%
+        }
+        @media screen and (max-width: 1300px) {
+            margin-top: 11%
+        }
+        @media screen and (max-width: 1200px) {
+            margin-top: 4%
+        }
+        @media screen and (max-width: 1000px) {
+            margin-top: 2%
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 9%
+        }
+        .block2_title_pic{
+            width: 1.6vw;
+            margin: 0 1%;
+            @media screen and (max-width: 414px) {
+                width: 4.5vw;
+                margin: 0 2%;
+            }
+        }
+        h2{
+            font-size: 15px;
+            color: #000;
+            letter-spacing: 2px;
+            display: inline-block;
+        }
+    }
+    .block2_content{
+        text-align: center;
+        @media screen and (max-width: 1000px) {
+            margin-top: -11%;
+        }
+        .block2_page{
+            width: 15vw;
+            margin: 1% 3%;
+            @media screen and (max-width: 1300px) {
+                width: 19vw;
+                margin: 2% 3%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 65vw;
+                margin: 11% 0;
+            }
+        }
+        ul{
+            display: inline-block;
+            margin: 0% 5% 4% 10%;
+            text-align: justify;
+            position: relative;
+            top: 50px;
+            @media screen and (max-width: 1000px) {
+                top: 106px;
+            }
+            @media screen and (max-width: 414px) {
+                top: 20px;
+                padding-left: 0;
+                margin: 0;
+            }
+            
+            h2{
+                font-size: 14px;
+                padding: 1% 2%;
+                border-left: 5px solid #FEB100;
+                color:#FEB100;
+                letter-spacing: 1px;
+                font-weight: 400;
+                @media screen and (max-width: 414px) {
+                    border: 1px solid #FEB100;
+                    padding: 12% 10% 10% 10%;
+                    text-align: center;
+                    font-weight: 500;
+                    border-radius: 5px;
+                }
+            }
+            li{
+                list-style: none;
+                font-size: 13px;
+                line-height: 27px;
+                color:$brand-word;
+
+            }
+        }
+    }
+}
+
+
+// smart2_order
+
+.smart2_order{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    @media screen and (max-width: 1500px) {
+        padding-bottom: 10%;
+        padding-top: 9%;
+    }
+    @media screen and (max-width: 1400px) {
+        padding-bottom: 20%;
+        padding-top: 7%;
+    }
+    @media screen and (max-width: 1300px) {
+        padding-bottom: 3%;
+    }
+    @media screen and (max-width: 414px) {
+        background-color: $brand-body-bg;
+    }
+    .smart2_order_title{
+        margin-left: 9%;
+        margin-top: 5%;
+        @media screen and (max-width: 1600px) {
+            margin-top: 14%;
+        }
+        @media screen and (max-width: 1200px) {
+           margin-top: 2%;;
+        }
+        @media screen and (max-width: 1100px) {
+            margin-top: 10%;
+        }
+        @media screen and (max-width: 1000px) {
+            margin-top: 0;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 11%;
+        }
+        @media screen and (max-width: 414px) {
+            margin: 11% 0;
+            text-align: center;
+        }
+        img{
+            width: 4vw;
+            margin: 5% 2%;
+            @media screen and (max-width: 414px) {
+                width: 14vw;
+                margin: 5% 2%;
+            }
+        }
+        h2{
+            font-size: 15px;
+            color: #000;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    }
+    .smart2_order_content{
+        text-align: center;
+        display: inline-block;
+        margin: 0 3%;
+        width: 37vw;
+        @media screen and (max-width: 1350px) {
+            width: 44vw;
+        }
+        @media screen and (max-width: 1300px) {
+            width: 46vw;
+            margin: 0;
+        }
+        @media screen and (max-width: 1000px) {
+            display: block;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 414px) {
+            width: 100%;
+        }
+        .order_list_pic{
+            width: 7vw;
+            margin: 0 0 5% 0;
+            @media screen and (max-width: 1300px) {
+                width: 8.5vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 24vw;
+                margin-bottom: 6%;
+            }
+        }
+        .order_word{
+            border: 1px solid #FEB100;
+            padding: 4% 3%;
+            width: 31vw;
+            border-radius: 5px;
+            margin: 6% auto;
+            @media screen and (max-width: 1000px) {
+                width: 45vw;
+                padding: 5% 3%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 78vw;
+                padding: 5% 8%;
+            }
+        }
+    }
+    ul{
+        padding-left: 0;
+        li{
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            margin: 2%;
+            @media screen and (max-width: 1200px) {
+                margin: 2% 6%;
+            }
+            img{
+                width: 4vw;
+                margin: 28% 0;
+                @media screen and (max-width: 1300px) {
+					width: 5vw;
+                }
+                @media screen and (max-width: 1200px) {
+                    width: 7vw;
+                }
+                @media screen and (max-width: 414px) {
+                    width: 23vw;
+                    margin-top: 35%;
+                }
+            }
+            p{
+                font-size: 13px;
+                color:$brand-word;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .smart2_order_page{
+        width: 15vw;
+        margin: -50% 0 6% 0;
+        @media screen and (max-width: 1400px) {
+            width: 17vw;
+            margin: -50% 0 -6% 7%;
+        }
+        @media screen and (max-width: 1300px) {
+            width: 21vw;
+            margin: -53% 0 -4% 1%;
+        }
+        @media screen and (max-width: 1200px) {
+            width: 22vw;
+            margin: -93% 0 -4% -3%;
+        }
+        @media screen and (max-width: 1100px) {
+            margin: -93% 0 -4% 3%;
+        }
+        @media screen and (max-width: 1000px) {
+            margin: 4% 35%;
+        }
+        @media screen and (max-width: 768px) {
+            width: 36vw;
+            margin: 12% 30% 0 30%;
+        }
+        @media screen and (max-width: 414px) {
+            width: 65vw;
+            margin: 12% 16%;
+        }
+        
+    }
+}
+
+// smart3_store_detail_ifo
+
+.smart3_store_detail_info{
+    .smart3_store_detail_info_start{
+        background-image: url(/images/smart-eat/smart3_store_derail_ifo_start_bc.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        @media screen and (max-width: 414px) {
+            background-image: url(/images/smart-eat/smart3_store_derail_ifo_start_bc_small.png)
+        }
+        h1{
+            font-size: 80px;
+            color: #5B83A1;
+            font-family: $font-primary;
+            padding: 1.8%;
+            width: 8vw;
+            border-radius:5px;
+            margin: 4% 9% 0 auto; 
+            @media screen and (max-width: 414px) {
+                display: none;
+            }
+            
+        }
+        img{
+            width: 26vw;
+            margin: 19% 58%;
+            @media screen and (max-width: 1300px) {
+                width: 32vw;
+                margin: 18% 61%;
+            }
+            @media screen and (max-width: 768px) {
+                width: 40vw;
+                margin: 2% 55%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 60vw;
+                margin: 98% 24% 20% 24%;
+            }
+        }
+    }
+}
+
+// smart3_store_detail_info_set
+
+.smart3_store_detail_info_set{
+    .info_set_title{
+        margin: -28% auto 7% 13%;
+        @media screen and (max-width: 768px) {
+            margin: -11% auto 7% 13%;
+        }
+        img{
+            width: 2.5vw;
+            margin: 0 1%;
+            @media screen and (max-width: 414px) {
+                width: 6vw;
+                margin: 0 5% 0 12%;
+                position: relative;
+                bottom: 2px
+            }
+        }
+        h2{
+            font-size: 16px;
+            color: #000;
+            margin-bottom: 4%;
+            display: inline-block;
+            font-family: $font-chinese;
+            @media screen and (max-width: 414px) {
+                margin-bottom: 13%;
+            }
+        }
+        .info_word{
+            font-size: 13px;
+            width: 30vw;
+            border: 1px solid #FEB100;
+            border-radius: 5px;
+            padding: 2% 4%;
+            background-color: #fff;
+            position: relative;
+            z-index: 5;
+            @media screen and (max-width: 768px) {
+                width: 39vw;
+                padding: 4%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 68vw;
+                padding: 5%;
+            }
+        }
+    }
+    .info_set_content{
+        background-image: url(/images/smart-eat/smart3_store_derail_info_set_bc.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-top: -8%;
+        padding-bottom: 3%;
+        @media screen and (max-width: 414px) {
+            background-image: none;
+        }
+        img{
+            width: 15vw;
+            margin: 12% 3%;
+            @media screen and (max-width: 1400px) {
+                width: 18vw;
+                margin: 10% 3%;
+            }
+            @media screen and (max-width: 768px) {
+                width: 33vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 65vw;
+                margin: 16% 6% 1% 5%;;
+            }
+        }
+    }
+    .info_set_report{
+        margin: 0 14%;
+        @media screen and (max-width: 1500px) {
+            margin-top: 6%;
+        }
+        @media screen and (max-width: 768px) {
+            text-align: center;
+        }
+        h2{
+            font-size: 16px;
+            color: #000;
+            font-family: $font-chinese;
+            @media screen and (max-width: 768px) {
+                margin-bottom: 10%;
+            }
+            @media screen and (max-width: 414px) {
+                margin-top: 18%;
+            }
+        }
+        .set_report_word{
+            border: 1px solid #FEB100;
+            border-radius: 5px;
+            padding: 3% 4%;
+            width: 30vw;
+            margin-bottom: 6%;
+            @media screen and (max-width: 768px) {
+                padding: 3% 6%;
+                width: 70vw;
+                margin: 0 auto;
+                font-size: 13px;
+            }
+        }
+        ul{
+            padding-left: 0;
+            margin-top: 10%;
+            @media screen and (max-width: 414px) {
+                margin-top: 15%;
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+                img{
+                    width: 4vw;
+                    margin: 0 7px;
+                    @media screen and (max-width: 768px) {
+                        width: 7vw;
+                        margin: 0 10px;
+                    }
+                    @media screen and (max-width: 414px) {
+                        width: 11vw;
+                        margin: 11% 10px;
+                    }
+                }
+            }
+        }
+        .set_report_list{
+            width: 8vw;
+            margin: 6% 0;
+            @media screen and (max-width: 1400px) {
+                width: 10vw;
+            }
+            @media screen and (max-width: 768px) {
+                width: 16vw;
+                margin-right: 60%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 25vw;
+                margin-top: 12%;
+                margin-bottom: 19%;
+                margin-right: 0;
+            }
+        }
+    }
+    .info_set_report2_pic{
+        width: 66vw;
+        margin-top: -14%;
+        @media screen and (max-width: 1400px) {
+            width: 78vw;
+        }
+        @media screen and (max-width: 768px) {
+            width: 97vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 115vw;
+            margin-left: -13%;
+        }
+    }
+    .info_set_report2{
+        border: 1px solid #FEB100;
+        padding: 3% 2% 1% 2%;
+        display: inline-block;
+        border-radius: 5px;
+        margin-left: 56%;
+        margin-top: -10%;
+        @media screen and (max-width: 1300px) {
+            padding: 3% 5% 1% 5%;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 5% 0 3% 4%;
+            margin: 7% 21%;
+            width: 47vw;
+        }
+        @media screen and (max-width: 414px) {
+            padding: 6% 0 3% 7%;
+            margin: 7% 13%;
+            width: 67vw;
+        }
+        .report2_description{
+            .report2_word{
+                font-size: 13px;
+                color:$brand-word;
+                @media screen and (max-width: 768px) {
+                    width: 38vw;
+                }
+                @media screen and (max-width: 414px) {
+                    width: 58vw;
+                }
+            }
+            .report2_title{
+                display: inline-block;
+            }
+            img{
+                width: 8vw;
+                @media screen and (max-width: 768px) {
+                    width: 14vw;
+                    position: relative;
+                    bottom: 2px
+                }
+                @media screen and (max-width: 414px) {
+                    width: 24vw;
+                }
+            }
+        }
+    }
+}
+
+// smart_titile_word
+
+.smart_title_word{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+// smart4_car
+
+.smart4_car{
+    background-image: url(/images/smart-eat/smart4_car_bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 414px) {
+        background-image: url(/images/smart-eat/smart4_car_bc_small.png)
+    }
+    .smart4_car_star{
+        @media screen and (max-width: 414px) {
+            margin-top: 15%;
+        }
+        h2{
+            font-size: 80px;
+            color: #5B83A1;
+            font-family: $font-primary;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 8%;
+            @media screen and (max-width: 414px) {
+                display: none;
+            }
+        }
+        .car_pic{
+            width: 9vw;
+            display: block;
+            margin: 20% 23% 5% 73%;
+            @media screen and (max-width: 786px) {
+                width: 15vw;
+                margin: 7% 23% 5% 73%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 26vw;
+                display: inline-block;
+                margin: 105% 21% 0 9% ;
+            }
+        }
+        .car_phone{
+            width: 20vw;
+            display: block;
+            margin: 0 61%;
+            @media screen and (max-width: 1500px) {
+                width: 23vw;
+            }
+            @media screen and (max-width: 1300px) {
+                width: 26vw;
+            }
+            @media screen and (max-width: 786px) {
+                width: 31vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 57vw;
+                margin: -58% 32% -49% 32%;
+            }
+        }
+    }
+    .smart4_car_block1{
+        margin: -28% 9% 7% 9%;
+        @media screen and (max-width: 1500px) {
+            margin: -22% 9% 7% 9%;
+        }
+        @media screen and (max-width: 1000px) {
+            margin: -34% 9% 7% 3%;
+        }
+        @media screen and (max-width: 786px) {
+            margin: -26% 9% 7% 7%;
+        }
+        @media screen and (max-width: 414px) {
+            margin: 63% 9% 7% 7%;
+            text-align: center;
+        }
+        .car_block1_title{
+            font-size: 15px;
+            font-weight: 500;
+            color: #FEB100;
+            border: 1px solid #FEB100;
+            display: block;
+            padding: 2% 1% 1.5% 1%;
+            width: 9vw;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 6%;
+            @media screen and (max-width: 1300px) {
+                width: 12vw;
+            }
+            @media screen and (max-width: 786px) {
+                width: 17vw;
+                padding: 3% 1% 2.5% 1%;
+            }
+            @media screen and (max-width: 414px) {
+                width: 38vw;
+                padding: 6% 3% 4.5% 3%;
+                margin: 12% auto;
+            }
+        }
+        .car_block1_pic{
+            width: 33vw;
+            @media screen and (max-width: 1500px) {
+                width: 38vw;
+            }
+            @media screen and (max-width: 1300px) {
+                width: 44vw;
+            }
+            @media screen and (max-width: 786px) {
+                width: 49vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 105vw;
+                margin: 2% -17%;
+            }
+        }
+        .car_block1_word{
+            margin: 6% 0;
+            @media screen and (max-width: 786px) {
+                margin: 10% 0;
+            }
+            @media screen and (max-width: 414px) {
+                margin: 17% 0;
+            }
+        }
+        .car_block1_list{
+            width: 6vw;
+            margin-right: 14%;
+            @media screen and (max-width: 1300px) {
+                width: 8vw;
+            }
+            @media screen and (max-width: 786px) {
+                width: 10vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 20vw;
+                margin: -4% 0 16% 0;
+            }
+        }
+        .car_block1_pic2{
+            width: 33vw;
+            @media screen and (max-width: 1500px) {
+                width: 38vw;
+            }
+            @media screen and (max-width: 1300px) {
+                width: 43vw;
+            }
+            @media screen and (max-width: 786px) {
+                width: 52vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 80vw;
+            }
+        }
+    }
+    .smart4_car_block2{
+        margin: 16% 11%;
+        @media screen and (max-width: 414px) {
+            text-align: center;
+        }
+        .car_block2_page{
+            width: 16vw;
+            @media screen and (max-width: 1500px) {
+                width: 20vw;
+            }
+            @media screen and (max-width: 1300px) {
+                width: 23vw;
+            }
+            @media screen and (max-width: 786px) {
+                width: 26vw;
+            }
+            @media screen and (max-width: 414px) {
+                width: 65vw;
+            }
+        }
+        .car_block2_content{
+            display: inline-block;
+            margin-left: 10%;
+            @media screen and (max-width: 1500px) {
+                margin-left: 19%;
+            }
+            @media screen and (max-width: 786px) {
+                margin-left: 17%;
+                position: relative;
+                top: 70px;
+            }
+            @media screen and (max-width: 414px) {
+                margin-left: 0;
+            }
+            .car_block2_ic{
+                width: 3.5vw;
+                margin: 5% 0;
+                @media screen and (max-width: 414px) {
+                    width: 13.5vw;
+                    margin: 0 0 15% 0;
+                }
+            }
+            .car_block2_title{
+                margin: 4% 0% 3% 0;
+                @media screen and (max-width: 414px) {
+                    margin: 4% 0 11% 0;
+                }
+            }
+            .car_block2_word{
+                width: 27vw;
+                @media screen and (max-width: 786px) {
+                    width: 32vw;
+                }
+                @media screen and (max-width: 414px) {
+                    width: 59vw;
+                }
+            }
+        }
+    }
+    .car_block2_page2{
+        width: 74vw;
+        margin-top: -14%;
+        @media screen and (max-width: 1400px) {
+            width: 88vw;
+        }
+        @media screen and (max-width: 1200px) {
+            width: 100vw;
+            margin-top: -8%;
+        }
+        @media screen and (max-width: 768px) {
+            width: 115vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 166vw;
+            margin-top: 11%;
+        }
+    }
+}
+
+// smart5_my_order
+
+.smart5_my_order_block1{
+    background-image: url(/images/smart-eat/smart5_my_order_bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    @media screen and (max-width: 1200px) {
+        background-image: url(/images/smart-eat/smart5_my_order_bc_small.png);
+    }
+    h2{
+        font-size: 15px;
+        color:#FEB100;
+        font-weight: 500;
+        padding: 2.2% 3% 2% 3%;
+        border: 1px solid #FEB100;
+        border-radius: 5px;
+        text-align: center;
+        width: 13vw;
+        margin: 10% auto;
+        @media screen and (max-width: 1200px) {
+            padding: 2.5% 3% 2% 3%;
+            width: 15vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 35vw;
+            padding: 5% 3% 4% 3%;
+            margin-top: 20%;
+        }
+    }
+    ul{
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 8%;
+        li{
+            list-style: none;
+            display: inline-block;
+            img{
+                width: 18vw;
+                margin: 0 18px;
+                margin-bottom: 20%;
+                @media screen and (max-width: 1400px) {
+                    width: 23vw;
+                }
+                @media screen and (max-width: 1100px) {
+                    width: 26vw;
+                    margin: 0 7px;
+                    margin-bottom: 23%;
+                }
+                @media screen and (max-width: 1000px) {
+                    width: 30vw;
+                    margin: 6% 16px;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 33vw;
+                }
+                @media screen and (max-width: 414px) {
+                    width: 65vw;
+                    margin: 8% 16px;
+                }
+            }
+        }
+    }
+}
+.smart5_my_order2{
+    text-align: center;
+    .my_order_pic{
+        width: 55vw;
+        margin: 6% 0 7% 0;
+        @media screen and (max-width: 1400px) {
+            width: 68vw;
+        }
+        @media screen and (max-width: 768px) {
+            width: 86vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 87vw;
+        }
+    }
+    .my_order_word{
+        width: 100%;
+        margin: 2% auto 12% auto;
+        @media screen and (max-width: 768px) {
+            width: 60vw;
+        }
+    }
+}
+
+// smart6_member
+
+.smart6_member{
+    img{
+        display: block;
+    }
+    .member_title{
+        width: 17vw;
+        margin: 5% 6%;
+        @media screen and (max-width: 1300px) {
+            width: 21vw;
+        }
+        @media screen and (max-width: 1100px) {
+            width: 24vw;
+        }
+        @media screen and (max-width: 768px) {
+            width: 30vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 55vw;
+            margin: 15% auto;
+        }
+        
+    }
+    .member_list{
+        width: 34vw;
+        margin: 10% auto;
+        @media screen and (max-width: 1300px) {
+            width: 43vw;
+        }
+        @media screen and (max-width: 1100px) {
+            width: 48vw;
+        }
+        @media screen and (max-width: 768px) {
+            width: 61vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 81vw;
+            margin: 21% auto;
+        }
+    }
+    .member_pic{
+        width: 63vw;
+        margin: 12% auto 14% auto;
+        @media screen and (max-width: 1300px) {
+            width: 75vw;
+        }
+        @media screen and (max-width: 1100px) {
+            width: 84vw;
+        }
+        @media screen and (max-width: 768px) {
+            width: 92vw;
+        }
+        @media screen and (max-width: 414px) {
+            width: 130vw;
+            margin: 24% auto 23% auto;
+        }
+    }
+}
+
+

@@ -1,0 +1,2261 @@
+// 顏色變數
+$brand-re:#D11E24;
+
+
+// word
+.word{
+    width: 22vw;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #323132;
+}
+
+// warp
+.warp{
+    background-color: #fff;
+}
+.warp_re{
+    @media screen and (max-width: 320px){
+        width: 104vw;
+    }
+}
+
+// header
+.re_header{
+    @media screen and (max-width: 320px){
+        width: 112vw;
+    }
+}
+
+// start
+.start{
+    background-image: url(/images/re/start-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 414px){
+        background-image: url(/images/re/start-bc-small.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .title{
+        margin: 0 0 0 14%;
+        img{
+            width: 20vw;
+            margin: 26% 0 1% 0;
+            @media screen and (max-width: 768px){
+               width: 43vw;
+               margin: 20% 0 1% 0;
+            }
+            @media screen and (max-width: 414px){
+                margin: 60% 0 1% 0;
+            }
+            
+        }
+        p{
+            font-size: 16px;
+            color: #fff;
+            font-weight: 300;
+        }
+        a h2{
+            font-size: 14px;
+            border: 1px solid #ffffff;
+            padding: 17px 64px;
+            display: inline-block;
+            border-radius: 30px;
+            color: #fff;
+            letter-spacing: 2px;
+            &:hover{
+                background-color: lighten($brand-white,90%);
+                color:$brand-re;
+                transition: all 0.5s linear;
+            }
+            @media screen and (max-width: 768px){
+                padding: 17px 45px;
+            }
+        }
+    }
+    img{
+        width: 70vw;
+        margin: -17% 0 0 36%;
+        @media screen and (max-width: 768px){
+            width: 94vw;
+            margin: -10% 0 0 32%;
+        }
+        @media screen and (max-width: 414px){
+            width: 142vw;
+            margin: 4% 0 0 10%;
+        }
+    }
+    .start_word{
+        margin: 0 0 0 10%;
+        position: relative;
+        bottom: 140px;
+        width: 26vw;
+        @media screen and (max-width: 768px){
+            margin: 28% 0 0 20%;
+            width: 60vw;
+        }
+        @media screen and (max-width: 414px){
+            margin: 47% 0 0 14%;
+            width: 67vw;
+        }
+    }
+    
+}
+
+// re1_about_product
+
+.part_title{
+    img{
+        width: 9vw;
+        @media screen and (max-width: 414px){
+            width: 15vw;
+        }
+    }
+    h2{
+        font-size: 32px;
+        font-family: $font-secondary;
+        color: $brand-re;
+        font-weight: 800;
+        margin: -2% 0 0 10%;
+        @media screen and (max-width: 414px){
+            font-size: 29px;
+        }
+        @media screen and (max-width: 375px){
+            font-size: 27px;
+        }
+    }
+    .circle1{
+        position: relative;
+        z-index: 2;
+        @media screen and (max-width: 414px){
+            left: 5%;
+            bottom: 20px;
+        }
+    }
+    .circle2{
+        position: relative;
+        right: 7%;
+        bottom: 31px;
+    }
+}
+
+.re1_about_product{
+    background-image: url(/images/re/re1_bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    .re1_about_product_title{
+        margin: 0 0 0 11%;
+        text-align: -webkit-auto;
+    }
+    .re1_about_product_word{
+        width: 55vw;
+        margin: 4% 0% 5% 20%;
+        @media screen and (max-width: 1024px){
+            width: 60vw;
+        }
+        @media screen and (max-width: 414px){
+            font-size: 13px;
+            margin: 4% 0% 5% 18%;
+        }
+        @media screen and (max-width: 320px){
+            margin: 4% 0% 5% 25%;
+        }
+        
+        
+    }
+    ul{
+        padding: 0;
+        margin: 5% 10%;
+        @media screen and (max-width: 1200px){
+            margin: 5% 3%;
+        }
+        @media screen and (max-width: 1024px){
+            margin: 5% 10%;
+        }
+        @media screen and (max-width: 320px){
+            margin: 5% 16%;
+        }
+        li{
+            display: inline-block;
+            width: 10vw;
+            margin: 3% 14%;
+            text-align: center;
+            @media screen and (max-width: 1500px){
+                margin: 3% 13%;
+                width: 14vw;
+            }
+            @media screen and (max-width: 1200px){
+               margin: 3% 8%;
+            }
+            @media screen and (max-width: 1024px){
+                margin: 3% 3%;
+                width: 20vw;
+            }
+            @media screen and (max-width: 768px){
+                margin: 3% 7%;
+                width: 26vw;
+            }
+            @media screen and (max-width: 414px){
+               width: 63vw;
+            }
+            img{
+                width: 11vw;
+                @media screen and (max-width: 414px){
+                    width: 30vw;
+                }
+            }
+            h2{
+                font-size: 16px;
+                font-weight: 500;
+                margin: 16% 0 10% 0;
+                @media screen and (max-width: 414px){
+                    margin: 8% 0 4 0;
+                }
+            }
+            p{
+                font-size: 14px;
+                // width: 14vw;
+                color: $brand-word;
+            }
+        }
+    }
+}
+
+// re2_personala_user
+
+.re2_personal_user{
+    .re2_personal_user_title{
+        // @media screen and (max-width: 1200px){
+        //     position: relative;
+        //     bottom: 85px;
+        // }
+        @media screen and (max-width: 375px){
+            bottom: 41px;
+        }
+        .circle1{
+            position: relative;
+            left: 77%;
+            @media screen and (max-width: 1200px){
+                left: 78%;
+            }
+            @media screen and (max-width: 414px){
+                left: -4%;
+                bottom: 0px;
+            }
+        }
+        .circle2{
+            position: relative;
+            left: 65%;
+            @media screen and (max-width: 1200px){
+                left: 62%;
+                bottom: 25px;
+            }
+            @media screen and (max-width: 414px){
+                left: -14%;
+                bottom: 26px;
+            }
+        }
+        h2{
+            margin: -2% 0 0 45%;
+            position: relative;
+            top: 120px;
+            z-index: 5;
+            @media screen and (max-width: 1200px){
+                margin: -2% 0 0 38%;
+            }
+            @media screen and (max-width: 414px){
+                margin: 0% 0 0 4%;
+                text-align: center;
+            }
+        }
+        p{
+            font-size: 15px;
+            color: $brand-selection-color;
+            display: inline-block;
+            letter-spacing: 2px;
+            position: relative;
+            left: 77.5%;
+            top: 67px;
+            @media screen and (max-width: 1200px){
+               top: 78px;  
+            }
+            @media screen and (max-width: 768px){
+                top: 100px;
+                left: 89%;
+            }
+            @media screen and (max-width: 414px){
+                left: 47%;
+                top: 107px;
+            }
+        }
+    }
+    .personal_user_1{
+        background-color: #fff;
+        border-radius:0 30px 30px 0;
+        width: 63vw;
+        margin: 30px 0;
+        box-shadow: 1px 2px 9px rgba(0,0,0,.1); 
+        margin-top: 7%;
+        @media screen and (max-width: 1200px){
+            width: 100%;
+            margin: 50px 0 0 -30px;
+        }
+        @media screen and (max-width: 768px){
+            box-shadow: 1px 2px 9px rgba(0,0,0,0); 
+        }
+        @media screen and (max-width: 414px){
+            margin-top: 100px; 
+        }
+        .ivy_pic{
+            width: 5.5vw;
+            margin: 4% 2% 1% 14%;
+            @media screen and (max-width: 1024px){
+                width: 6vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 18vw;
+            }
+        }
+        img{
+            width: 5vw;
+            margin: 4% 2% 1% 8%;
+            @media screen and (max-width: 1024px){
+                margin: 4% 2% 1% 14%;
+            }
+            @media screen and (max-width: 414px){
+                width: 15vw;
+                margin: 4% 2% 1% 21%;
+            }
+        }
+        .personal_user_name{
+            display: inline-block;
+            position: relative;
+            top: 42px;
+            @media screen and (max-width: 768px){
+                top: 30px;
+            }
+            h2{
+                font-size: 22px;
+                color: #323132;
+                font-weight: 800;
+                font-family: $font-primary;
+                margin-bottom: 8px;
+            }
+            p{
+                font-size: 14px;
+                color: #323132;
+            }
+        }
+        .block_1{
+            margin: 0 4%;
+            @media screen and (max-width: 1300px){
+                margin: 0 3%;
+            }
+            @media screen and (max-width: 1200px){
+                margin: 0 8%;
+            }
+            @media screen and (max-width: 768px){
+                margin: 2% 0 0 8%;
+            }
+            @media screen and (max-width: 414px){
+                margin: 1% 0 0 15%;
+            }
+        }
+        .block_2{
+            margin: 0 4%;
+            .personl_ivy{
+                @media screen and (max-width: 414px){
+                    padding: 32px 94px 34px 62px;
+                }
+                @media screen and (max-width: 375px){
+                    padding: 32px 80px 34px 62px;
+                }
+            }
+            @media screen and (max-width: 768px){
+                margin: 2% 0 0 4%;
+            }
+            @media screen and (max-width: 414px){
+                margin: 2% 0 2% 8%;
+            }
+        }
+
+        .personal_user_describe{
+            display: block;
+            ul{
+                background-color: #F3F3F3;
+                display: inline-block;
+                padding: 35px 53px;
+                border-radius: 9%;
+                margin: 2% 1%;
+                @media screen and (max-width: 768px){
+                    padding: 35px 38px;
+                } 
+                @media screen and (max-width: 414px){
+                    margin: 4% 1% 3% 6%;
+                    padding: 32px 84px 34px 62px ;
+                    border-radius: 6%;
+                }
+                li{
+                    font-size: 13px;
+                    color: lighten($brand-black,30%);
+                    line-height: 26px;
+                }
+                h2{
+                    font-size: 18px;
+                }
+            }
+            .personal_user_information{
+                padding: 35px 55px;
+                @media screen and (max-width: 768px){
+                    padding: 34px 44px;
+                }
+                @media screen and (max-width: 414px){
+                    padding: 34px 109px 34px 61px ;
+                }
+                
+            }
+            .personal_user_demand{
+                padding: 62px 55px;
+                position: relative;
+                bottom: 24px;
+                @media screen and (max-width: 768px){
+                    padding: 63px 41px;
+                }
+                @media screen and (max-width: 414px){
+                    padding: 34px 109px 58px 51px;
+                    bottom: 0;
+                } 
+                h2{
+                    position: relative;
+                    bottom: 22px;
+                    @media screen and (max-width: 414px){
+                        bottom: 0;
+                    }
+                }
+                li{
+                    position: relative;
+                    bottom: 28px;
+                    @media screen and (max-width: 414px){
+                        bottom: 0;
+                    }
+                }
+                    
+                
+            }
+            .d2{
+                padding: 48px 55px;
+                bottom: 13px;
+                @media screen and (max-width: 768px){
+                    padding: 48px 49px; 
+                }
+                @media screen and (max-width: 414px){
+                    padding: 34px 106px 58px 51px;
+                    bottom: 0;
+                }
+                @media screen and (max-width: 375px){
+                    padding: 34px 91px 58px 51px;
+                }
+                
+                h2{
+                    bottom: 13px;
+                    @media screen and (max-width: 414px){
+                        bottom: 0;
+                    }
+                }
+                li{
+                    bottom: 12px;
+                    @media screen and (max-width: 414px){
+                        bottom: 0;
+                    }
+                }
+            }
+            .in2{
+                padding: 48px 55px;
+                position: relative;
+                bottom: 12px;
+                @media screen and (max-width: 768px){
+                    padding: 48px 43px;
+                }
+                @media screen and (max-width: 414px){
+                    padding: 34px 108px 34px 61px;
+                    bottom: 0;
+                }
+                @media screen and (max-width: 375px){
+                    padding: 34px 94px 34px 61px;
+                }
+                
+            }
+        }
+    }
+    .ivy{
+        border-radius: 30px 0 0 30px;
+        margin-left: 30%;
+        margin-top: -13%;
+        @media screen and (max-width: 1200px){
+            margin-left: 30px;
+        }
+        @media screen and (max-width: 768px){
+            margin-left: 0;
+        }
+
+    }
+    .re2-bc{
+        width: 41vw;
+        position: relative;
+        z-index: -2;
+        left: 64%;
+        bottom: 76px;
+        @media screen and (max-width: 768px){
+            width: 46vw;
+        }
+        @media screen and (max-width: 414px){
+            display: none;
+        }
+    }
+    .re2-bc2{
+        width: 10vw;
+        position: relative;
+        z-index: -2;
+        right: 40%;
+        @media screen and (max-width: 768px){
+            width: 12vw;
+            right: 48%;
+            bottom: 20px;
+        }
+    }
+}
+
+// re2 lohin
+
+.log_in{
+    background-image: url(/images/re/login-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .log_in_part1{
+        @media screen and (max-width: 768px){
+           height: 86vh;
+        }
+        @media screen and (max-width: 414px){
+            height: 78vh;
+        }
+        
+        .login-pic{
+            width: 29vw;
+            margin: 40% 6% 0 12%;
+            @media screen and (max-width: 1200px){
+                width: 31vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 40vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 67vw;
+            }
+            @media screen and (max-width: 320px){
+                width: 80vw;
+            }
+        }
+        .login-pic2{
+            width: 30vw;
+            margin-bottom: 24%;
+            position: relative;
+            left: -2%;
+            @media screen and (max-width: 768px){
+                width: 35vw;
+                left: -5%;
+            }
+            @media screen and (max-width: 414px){
+                width: 66vw;
+                left: 9%;
+                margin-top: 19%;
+                margin-bottom: 10%;
+            }
+        }
+        .login_word{
+            width: 20vw;
+            font-size: 12px;
+            margin: 0 0 0 67%;
+            position: relative;
+            bottom: 523px;
+            left: 32px;
+            @media screen and (max-width: 1200px){
+               bottom: 362px;
+            }
+            @media screen and (max-width: 414px){
+                width: 55vw;
+                margin: 0 0 0 15%;
+                bottom: 0;
+            }
+        }
+    }
+    .log_in_part2{
+        height: 173vh;
+        @media screen and (max-width: 1200px){
+           margin-bottom: -15%;
+        }
+        @media screen and (max-width: 1024px){
+            height:170vh;
+        }
+        @media screen and (max-width: 768px){
+            height: 115vh;
+        }
+        @media screen and (max-width: 414px){
+            height: 135vh;
+            width: 74vw;
+            bottom: 895px;
+            left: 0;
+        }
+        @media screen and (max-width: 320px){
+            height: 180vh;
+        }
+        .re2_home_pic{
+            width: 40vw;
+            margin: 0 2%;
+            position: relative;
+            bottom: 530px;
+            @media screen and (max-width: 1200px){
+                width: 44vw;
+                bottom: 581px;
+            }
+            @media screen and (max-width: 768px){
+                display: none;
+            }
+        }
+        .re2_home_pic_phone{
+            display: none;
+            @media screen and (max-width: 768px){
+                display: block;
+                position: relative;
+                width: 75vw;
+                bottom: 1182px;
+                left: 12%;
+            }
+            @media screen and (max-width: 414px){
+                display: block;
+                position: relative;
+                width: 81vw;
+                bottom: 915px;
+                left: 4%;
+            }
+            @media screen and (max-width: 375px){
+                bottom: 870px;
+            }
+            @media screen and (max-width: 320px){
+                width: 90vw;
+                bottom: 903px;
+            }
+            
+        }
+        ul{
+            position: relative;
+            left: 55%;
+            top: 132px;
+            @media screen and (max-width: 768px){
+                margin-top: 62%;
+                left: 0;
+            }
+            @media screen and (max-width: 414px){
+                margin-top: 170%;
+                left: 0;
+            }
+            @media screen and (max-width: 320px){
+                margin-top: 227%;
+            }
+            li{
+                text-decoration: none;
+                list-style: none;
+                background-color: #fff;
+                padding: 12px 20px;
+                margin: 25px 0;
+                width: 34%;
+                border-radius:15px;
+                width: 34%;
+                box-shadow: 1px 2px 9px rgba(0,0,0,.1); 
+                @media screen and (max-width: 768px){
+                    margin: 25px 12% ;
+                    width: 65vw;
+                }
+                @media screen and (max-width: 414px){
+                    margin: 25px 4%;
+                    width: 66vw;
+                }
+                @media screen and (max-width: 320px){
+                    margin: 25px 11%;
+                }
+
+                h2{
+                    font-size: 16px;
+                    color: #D11E25;
+                    margin: 5% 6% 4% 6%;
+                }
+                p{
+                    font-size: 13px;
+                    color: lighten($brand-black,30%);
+                    margin: 0% 6% 4% 6%;
+                }
+            }
+        }
+    }
+}
+
+// 註解樣式
+
+.annotation{
+    font-size: 12px;
+    border-radius:20px;
+    background-color: #DF0523;
+    display: inline-block;
+    padding: 5px 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0 0 20% 27%;
+    position: relative;
+    bottom: 65px; 
+    @media screen and (max-width: 768px){
+       bottom: 124px;
+
+    }
+    @media screen and (max-width: 414px){
+        bottom: 297px;
+    }
+    @media screen and (max-width: 375px){
+        bottom: 283px;
+        margin:  0 0 20% 35% ;
+    }
+
+}
+
+// re3_receive
+
+.re3_receive{
+    .re3_receive_pic{
+        width: 80vw;
+        position: relative;
+        @media screen and (max-width: 414px){
+            width: 243vw;
+        }
+    }
+    .re3_receive_title{
+        text-align: center;
+        position: relative;
+        bottom: 228px;
+        z-index: 5;
+        @media screen and (max-width: 375px){
+            bottom: 150px;
+        }
+        .circle2{
+            width: 10vw;
+            position: relative;
+            right: 54px;
+            bottom: -38px;
+            z-index: -5;
+            @media screen and (max-width: 375px){
+                width: 17vw;
+            }
+        }
+        p{
+            font-size: 15px;
+            color: $brand-lighter;
+            display: inline-block;
+            letter-spacing: 2px;
+            position: relative;
+            left: 15%;
+            bottom: 33px;
+            @media screen and (max-width: 768px){
+                left: 6%;
+                bottom: 4px;
+            }
+        }
+    }
+    .receive_part1{
+        text-align: center;
+        img{
+            width: 66vw;
+            position: relative;
+            bottom: 187px;
+            @media screen and (max-width: 1700px){
+                width: 60vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 83vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 145vw;
+                right: 117px;
+            }
+            @media screen and (max-width: 375px){
+                width: 158vw;
+                right: 129px;
+            }
+            @media screen and (max-width: 320px){
+                width: 183vw;
+                right: 124px;
+            }
+        }
+        .re3_receive_word{
+            width: 51vw;
+            margin: -12% 17% 0 17%;
+            @media screen and (max-width: 768px){
+                width: 70vw;
+                margin: -20% 13% 0 13%;
+            }
+            @media screen and (max-width: 414px){
+                margin: -40% 13% 0% 13%;
+            }
+            @media screen and (max-width: 320px){
+                margin: -46% 16% 0% 16%;
+            }
+        }
+        .re3_receive_pic2{
+            width: 79vw;
+            margin: 0;
+            margin-top: 25%;
+            @media screen and (max-width: 1024px){
+                width: 100vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 110vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 121vw;
+                margin-top: 67%;
+            }
+            @media screen and (max-width: 320px){
+                width: 162%;
+                margin-top: 67%;
+            }
+        }
+    }
+}
+
+// re4_pocket
+
+.white_title{
+    position: relative;
+    top: 160px;
+    left: 9%;
+    @media screen and (max-width: 414px){
+        top: 35px;
+        left: 9%;
+    }
+    h2{
+        color: #fff;
+        position: relative;
+        z-index: 3;
+        @media screen and (max-width: 375px){
+            font-size: 26px;
+        }
+    }
+    .circle2{
+        position: relative;
+        right: 0;
+        bottom: -23px;
+    }
+    p{
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 2px;
+        display: inline-block;
+        position: relative;
+        left: 28%;
+        bottom: 34px;
+        @media screen and (max-width: 1200px){
+            left: 32%;
+        }
+        @media screen and (max-width: 768px){
+            left: 38%;
+        }
+        @media screen and (max-width: 414px){
+            left: 57%;
+            font-size: 13px;
+            bottom: 28px;
+        }
+        @media screen and (max-width: 414px){
+            left: 62%;
+        }
+    }
+}
+.re4_pocket_word{
+    color: #fff;
+    width: 24vw;
+    margin: 12% 10% 0 19%;
+    font-weight: 300;
+    @media screen and (max-width: 768px){
+        width: 50vw;
+        margin: 18% 0% 0% 19%;
+    }
+    @media screen and (max-width: 414px){
+        width: 60vw;
+        margin: 0 0 0 19%;
+        font-size: 12px;
+    }
+}
+
+.re4_pocket{
+    background-image: url(/images/re/re4-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @media screen and (max-width: 1200px){
+       margin-top: -20%;
+    }
+    .pocket_part1{
+        text-align: center;
+        @media screen and (max-width: 414px){
+            margin-bottom: 25%;
+        }
+        ul{
+            padding-left: 0;
+            li{
+                text-decoration: none;
+                list-style: none;
+                text-align: center;
+                display: inline-block;
+                margin: 0 2%;
+                .icon{
+                    width: 8vw;
+                    height: 8vw;
+                    border-radius:100% ;
+                    background-color: #F9F9F9;
+                    margin-left: 37%;
+                    position: relative;
+                    top: 56px;
+                    @media screen and (max-width: 1024px){
+                       top: 40px;
+                    }
+                    @media screen and (max-width: 768px){
+                        width: 12vw;
+                        height: 9vh;
+                        margin-left: 30%;
+                        top: 46px;
+                    }
+                    @media screen and (max-width: 414px){
+                        width: 21vw;
+                        height: 11vh;
+                        margin-left: 36%;
+                        top: 45px;
+                    }
+                    @media screen and (max-width: 375px){
+                        top: 38px;
+                    }
+                    img{
+                        width: 4vw;
+                        margin: 19% 0 12% 0;
+                        @media screen and (max-width: 768px){
+                            width: 6.5vw;
+                        }
+                        @media screen and (max-width: 414px){
+                            width: 11.5vw;
+                        }
+                    }
+                    h2{
+                        font-size: 16px;
+                        color: $brand-re;
+                       
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    color: lighten($brand-black,35%);
+                    padding: 78px 30px 45px 30px;
+                    background-color: #F9F9F9;
+                    width: 32vw;
+                    border-radius: 17px;
+                    @media screen and (max-width: 414px){
+                        font-size: 13px;
+                        padding: 78px 23px 45px 30px;
+                        width: 76vw;
+                        margin-bottom: 0;
+                    }
+                }
+
+            }
+            .pocket_questionnaire{
+                margin: 0 2% 0 3%;
+
+            }
+        }
+    }
+}
+
+.re-pocket{
+    width: 46vw;
+    margin: 7% 10% 5% 24% ;
+    @media screen and (max-width: 1200px){
+       width: 51vw;
+       margin: 7% 10% 5% 27%;
+    }
+    @media screen and (max-width: 768px){
+        width: 68vw;
+        margin: 7% 10% 5% 15%;
+    }
+    @media screen and (max-width: 414px){
+        width: 80vw;
+        margin: 4% 10% 5% 6%;
+    }
+    @media screen and (max-width: 320px){
+        width: 94vw;
+        margin: -1% 10% 5% 6%;
+    }
+}
+
+// re4-part2_answer_get_reward
+
+.re5_store_title2{
+    @media screen and (max-width: 768px){
+       position: relative;
+       bottom: 116px;
+    }
+}
+.little_title{
+    text-align: center;
+    margin: 10% 0 0% 0;
+    img{
+        width: 5vw;
+        @media screen and (max-width: 414px){
+            width: 10vw;
+        }
+    }
+    h2{
+        font-size: 26px;
+        letter-spacing: 2px;
+        margin-left: 8%;
+        position: relative;
+        bottom: 36px;
+        letter-spacing: 2px;
+        @media screen and (max-width: 414px){
+            bottom: 5px;
+        }
+    }
+    p{
+        font-size: 14px;
+        color: $brand-lighter;
+        display: inline-block;
+        letter-spacing: 2px;
+        position: relative;
+        left: 4%;
+        bottom: 38px;
+        @media screen and (max-width: 414px){
+            bottom: 3px;
+        }
+    }
+    .circle1{
+        position: relative;
+        left: -8%;
+        @media screen and (max-width: 1200px){
+            left: -13%;
+        }
+        @media screen and (max-width: 1024px){
+            left: -14%;
+            bottom: 9px;
+        }
+        @media screen and (max-width: 768px){
+            left: -16%;
+        }
+        @media screen and (max-width: 414px){
+            left: -25%;
+            bottom: 13px;
+        }
+        @media screen and (max-width: 375px){
+            bottom: 18px;
+        }
+    }
+    .circle2{
+        position: relative;
+        right: 18%;
+        bottom: 31px;
+        @media screen and (max-width: 1200px){
+            right: 22%;
+        }
+        @media screen and (max-width: 768px){
+            right: 24%;
+            bottom: 24px;
+        }
+        @media screen and (max-width: 414px){
+            right: 34%;
+            bottom: 24px;
+        }
+    }    
+} 
+
+.answer_get_reward_part2{
+    .re4_pocket_questionnaire{
+        width: 81vw;
+        @media screen and (max-width: 1200px){
+            width: 95vw;
+        }
+        @media screen and (max-width: 768px){
+            width: 115vw;
+        }
+        @media screen and (max-width: 414px){
+            position: relative;
+            width: 148vw;
+            right: 27%;
+        }
+    }
+    .re4_pocket_invite{
+        width: 82vw;
+        @media screen and (max-width: 1200px){
+            width: 95vw;
+        }
+        @media screen and (max-width: 768px){
+           width: 115vw;
+        }
+        @media screen and (max-width: 414px){
+            position: relative;
+            width: 148vw;
+            right: 19%;
+            margin-bottom: 15%;
+        }
+    }
+}
+
+// re5_store
+
+.re5_store{
+    background-image: url(/images/re/re5-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .re5_store_title{
+        position: relative;
+        top: 212px;
+        left: 9%;
+        @media screen and (max-width: 414px){
+            top: 75px;
+            left: 9%;
+        }
+        .circle2{
+            position: relative;
+            right: 0;
+            bottom: 0;
+        }
+        h2{
+            color: #fff;
+            margin-left: 9%;
+            position: relative;
+            z-index: 3;
+        }
+        p{
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 2px;
+            display: inline-block;
+            margin-left: 22%;
+            position: relative;
+            bottom: 34px;
+            @media screen and (max-width: 1200px){
+               margin-left: 25%;
+            }
+            @media screen and (max-width: 768px){
+                margin-left: 28%;
+            }
+            @media screen and (max-width: 414px){
+                margin-left: 42%;
+            }
+        }
+    }
+    .re5-store1{
+        width: 34vw;
+        margin: -2% 24% 0 24% ;
+        @media screen and (max-width: 768px){
+            width: 45vw;
+            margin: 5% 24% 0 24%;
+        }
+    }
+    .word{
+        color: #fff;
+        font-weight: 300;
+        margin: 17% 0 0 18%;
+        @media screen and (max-width: 1200px){
+           margin-top: 20%;
+           width: 29vw;
+        }
+        @media screen and (max-width: 768px){
+            width: 41vw;
+            margin-top: 28%;
+        }
+        @media screen and (max-width: 414px){
+            width: 57vw;
+            margin-top: 13%;
+            font-size: 12px;
+        }
+    }
+    .annotation{
+        background-color: #fff;
+        color: $brand-re;
+        font-weight: 400;
+        margin: 12% 50% 0 41%;
+        @media screen and (max-width: 1400px){
+           margin: 12% 54% 0 37%;
+        }
+        @media screen and (max-width: 1200px){
+            margin: 12% 52% 0 38%;
+        }
+        @media screen and (max-width: 1024px){
+            margin: 12% 52% 0 34%;
+        }
+        @media screen and (max-width: 768px){
+            margin: 25% 50% 0 37%;
+        }
+        @media screen and (max-width: 414px){
+            display: none;
+        }
+
+    }
+    .re5_store_word{
+        margin: 0 0 0 82%;
+        position: relative;
+        bottom: 943px;
+        @media screen and (max-width: 1500px){
+           margin-left: 81%;
+           bottom: 808px;
+        }
+        @media screen and (max-width: 1300px){
+            bottom: 653px;
+            margin-left: 76%;
+        }
+    }
+    .re5_store_description{
+        color: #fff;
+        margin: 0 0 0 75%;
+        width: 15vw;
+        position: relative;
+        bottom: 922px;
+        font-size: 13px;
+        @media screen and (max-width: 1500px){
+           bottom: 774px;
+        }
+        @media screen and (max-width: 1300px){
+            bottom: 626px;
+            margin-left: 70%;
+            width: 19vw;
+        }
+        @media screen and (max-width: 768px){
+            margin-left: 75%;
+        }
+        @media screen and (max-width: 414px){
+            margin-left: 17%;
+            font-size: 12px;
+            font-weight: 400;
+            color: $brand-word;
+            width: 61vw;
+            bottom: -146px;
+        }
+        @media screen and (max-width: 320px){
+            margin-left: 23% ;
+        }
+    }
+
+   .store_part1{
+        .store_how{
+            margin: 9% 3% 3% 14%;
+            .store_solve{
+                @media screen and (max-width: 1200px){
+                    margin-left: 39%;
+                    position: relative;
+                    bottom: 47px;
+                }
+                @media screen and (max-width: 768px){
+                    margin-left: 0;
+                    bottom: 0;
+                }
+                @media screen and (max-width: 414px){
+                    margin-left: 0;
+                    margin-right: 19%;
+                }
+            }
+            ul{
+                .question{
+                    font-weight: 500;
+                }
+                .answer{
+                    list-style: none;
+                    color: $brand-word;
+                    margin: -1% 0 4% 0;
+                    font-size: 13px;
+                    font-weight: 350;
+                    
+                }
+            }
+            h2{
+                padding: 18px 41px 13px 41px;
+                position: relative;
+                bottom: 405px;
+                @media screen and (max-width: 1200px){
+                    bottom: 0;
+                }
+                @media screen and (max-width: 414px){
+                    padding: 15px 41px 9px 41px;
+                }
+            }
+        }
+    }
+    .store_part2{
+        text-align: center;
+        .re5_store_thinking{
+            width: 59vw;
+            margin: 20% 0% 29% 0%;
+            @media screen and (max-width: 1600px){
+                margin: 38% 0% 29% 0%;
+            }
+            @media screen and (max-width: 1400px){
+                width: 72vw;
+                margin: 50% 0% 29% 0%;
+            }
+            @media screen and (max-width: 1200px){
+                margin: 8% 0% 29% 0%;
+            }
+            @media screen and (max-width: 768px){
+                width: 82vw;
+                margin: 0% 0% 29% 0%;
+            }
+            @media screen and (max-width: 414px){
+                display: none;
+            }
+        }
+        .re5_store_thinking_phone{
+            display: none;
+            @media screen and (max-width: 414px){
+                display: block;
+                width: 80vw;
+                margin-bottom: 23%;
+                position: relative;
+                bottom: 21px;
+                left: 6%;
+            }
+            @media screen and (max-width: 320px){
+                width: 87vw;
+                position: relative;
+                left: 10%;
+            }
+        }
+        .re5_store2{
+            width: 54vw;
+            margin: -16% 0% 5% 0%;
+            @media screen and (max-width: 1300px){
+                width: 63vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 80vw;
+            }
+            @media screen and (max-width: 414px){
+               display: none
+            }
+        }
+        .re5_store2_phone{
+            display: none;;
+            @media screen and (max-width: 414px){
+                display: block;
+                opacity: 1;
+                position: relative;
+                bottom: 57px;
+                img{
+                    width: 75vw;
+                }
+                ul{
+                    width: 73vw;
+                    padding-left: 0;
+                    margin-left: 35px;
+                    @media screen and (max-width: 320px){
+                        margin-left: 49px;
+                    }
+                    li{
+                       font-size: 13px;
+                       color: $brand-word;
+                       padding: 22px 35px;
+                       border-radius: 10px;
+                       margin: 5% 0;
+                       list-style: none;
+                       box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.1);
+                        span{
+                            color: $brand-re;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+            }
+        }
+        .word{
+            color: lighten($brand-black,30%);
+            font-weight: 400;
+            margin-top: 7%;
+            margin-bottom: 7%;
+            margin-left: 12%;
+            width: 51vw;
+            @media screen and (max-width: 1500px){
+                margin-left: 16%;
+            }
+            @media screen and (max-width: 1400px){
+                width: 58vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 80vw;
+                margin-left: 8%;
+            }
+            @media screen and (max-width: 414px){
+                width: 69vw;
+                margin-left: 12%;
+            }
+            @media screen and (max-width: 320px){
+                margin-left: 17%;
+            }
+            
+        }
+        .re5_store3{
+            width: 50vw;
+            margin: 22% 0;
+            @media screen and (max-width: 1300px){
+                width: 65vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 76vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 80vw;
+            }
+            @media screen and (max-width: 320px){
+                width: 87vw;
+            }
+        }
+        .re5_store4{
+            width: 60vw;
+            margin: 6% 0 5% 0;
+            @media screen and (max-width: 1500px){
+                margin: 23% 0% 5% 0%;
+            }
+            @media screen and (max-width: 1300px){
+                width: 75vw;
+             }
+            @media screen and (max-width: 1200px){
+                margin: 0 0 5% 0;
+            }
+            @media screen and (max-width: 1024px){
+                margin: 14% 0 5% 0;
+            }
+            @media screen and (max-width: 768px){
+                width: 86vw;
+                margin: 5% 0 ;
+            }
+            @media screen and (max-width: 414px){
+                width: 100vw;
+                margin: 5% -6%;
+            }
+            @media screen and (max-width: 320px){
+                width: 115vw;
+            }
+        }
+    }
+  
+
+}
+
+// contect_title
+
+.content_title{
+    margin: 3% 3% 3% 16%;
+    @media screen and (max-width: 768px){
+        margin: -2% 3% 3% 16%;
+        position: relative;
+        bottom: 65px;
+    }
+    @media screen and (max-width: 414px){
+        margin: 29% 3% 3% 14%;
+    }
+    
+    
+    h2{
+        color: $brand-re;
+        border: 1px solid $brand-re;
+        padding: 18px 32px 13px 32px;
+        display: inline-block;
+        border-radius: 32px;
+        font-size: 16px;
+        margin: 0 10% 0 0;
+        position: relative;
+        bottom: 142px;
+        letter-spacing: 2px;
+        @media screen and (max-width: 768px){
+            display: block;
+            bottom: 0;
+        }
+        @media screen and (max-width: 414px){
+            padding: 15px 32px 9px 32px;
+        }
+    }
+    ul{
+        display: inline-block;
+        padding-left: 0;
+        @media screen and (max-width: 1024px){
+           padding-left: 7%;
+        }
+        @media screen and (max-width: 768px){
+            margin-top: 3%;
+        }
+        @media screen and (max-width: 414px){
+            margin-top: 10%;
+        }
+        li{
+            font-size: 14px;
+            color: #353535;
+            line-height: 32px;
+            font-weight: 400;
+           
+        }
+    }
+}
+
+// re6_member
+
+.re6_member{
+    .re6_member_title{
+        img{
+            width: 8vw;
+            @media screen and (max-width: 414px){
+                width: 14vw;
+            }
+        }
+        h2{
+            font-size: 32px;
+        }
+        p{
+            font-size: 15px;
+            @media screen and (max-width: 414px){
+                bottom: 11px;
+                font-size: 14px;
+            }
+        }
+        .circle2{
+            right: 15%;
+            @media screen and (max-width: 768px){
+                right: 22%;
+            }
+        }
+        .circle1{
+            @media screen and (max-width: 414px){
+              left: -14%;
+              bottom: 4px;
+            }
+        }
+    }
+    .re6_member_pic{
+        width: 95vw;
+        margin: 9% 0 8% 0;
+        @media screen and (max-width: 1300px){
+            width: 115vw;
+        }
+        @media screen and (max-width: 768px){
+            width: 136vw;
+            margin: 9% 0 8% -9%;
+        }
+        @media screen and (max-width: 414px){
+            width: 155vw;
+            margin: 9% 0% 8%-18%;
+        }
+    }
+    .re6_member_all{
+        text-align: center;
+        .member_part1{
+            .re6_part_title{
+                .circle1{
+                    left: -18%;
+                    @media screen and (max-width: 1200px){
+                        left: -22%;
+                    }
+                    @media screen and (max-width: 768px){
+                        left: -30%;
+                    }
+                    @media screen and (max-width: 414px){
+                        bottom: 22px;
+                    }
+                }
+                .circle2{
+                    right: 27%;
+                    @media screen and (max-width: 1200px){
+                        right: 31%;
+                    }
+                    @media screen and (max-width: 768px){
+                        right: 38%;
+                        bottom: 25px;
+                    }
+                    @media screen and (max-width: 414px){
+                        right: 38%;
+                        bottom: 28px;
+                    }
+                }
+                h2{
+                    @media screen and (max-width: 414px){
+                        font-size: 20px;
+                    }
+                    @media screen and (max-width: 375px){
+                        width: 79vw;
+                    }
+                }
+                p{
+                    @media screen and (max-width: 414px){
+                       bottom: 11px;
+                       font-size: 12px;
+                       left: 5%;
+                    }
+                    @media screen and (max-width: 375px){
+                        left: 1%;
+                        bottom: 10px;
+                    }
+                }
+            }
+            .word{
+                width: 28vw;
+                display: inline-block;
+                margin-bottom: 7%;
+                @media screen and (max-width:1200px){
+                    width: 42vw;
+                }
+                @media screen and (max-width: 768px){
+                    width: 50vw;
+                }
+                @media screen and (max-width: 414px){
+                    width: 60vw;
+                }
+            }
+        }
+        .member_part2{
+            ul{
+                padding-left: 0;
+                // @media screen and (max-width: 1800px){
+                //     // margin: 10% 15% 12% 29%;
+                // }
+                // @media screen and (max-width: 1500px){
+                //     // margin: 10% 7% 12% 7%;
+                // }
+                // @media screen and (max-width: 1300px){
+                //     // margin: 10% 10% 12% 16%;
+                // }
+                // @media screen and (max-width: 768px){
+                //     // margin: 10% 8% 12% 15%;
+                // }
+                // @media screen and (max-width: 414px){
+                //     // margin: 10% 8% 12% 15%;
+                // }
+                // @media screen and (max-width: 320px){
+                //     // margin: 10% 8% 12% 17%;
+                // }
+                li{
+                    display: inline-block;
+                    list-style: none;
+                    text-align: center;
+                    width: 10vw;
+                    height: 11vh;
+                    margin: 2% 2%;
+                    @media screen and (max-width: 768px){
+                        width: 14vw;
+                    }
+                    @media screen and (max-width: 414px){
+                        width: 30vw;
+                        margin: 5% 2%;
+                    }
+                    img{
+                        width: 5vw;
+                        margin-bottom: 15%;
+                        @media screen and (max-width: 768px){
+                            width: 8vw;
+                        }
+                        @media screen and (max-width: 414px){
+                            width: 18vw;
+                            margin-bottom: 8%;
+                        }
+                        @media screen and (max-width: 375px){
+                            width: 17vw;
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        color: lighten($brand-black,30%);
+                        letter-spacing: 2px;
+                        @media screen and (max-width: 414px){
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
+
+// re7
+.re7_coupon{
+    background-image: url(/images/re/re7-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .white_title{
+        p{
+            left: 40%;
+            @media screen and (max-width: 1200px){
+                left: 46%;
+            }
+            @media screen and (max-width: 1024px){
+                left: 57%;
+            }
+            @media screen and (max-width: 786px){
+                left: 56%;
+            }
+            @media screen and (max-width: 414px){
+                left: 11%;
+                top: -6px;
+                font-size: 13px;
+            }
+        }
+    }
+    .re7_coupon_word{
+        width: 25vw;
+        margin: 12% 0 0 19%;
+        font-size: 12px;
+        @media screen and (max-width: 1400px){
+            width: 32vw;
+        }
+        @media screen and (max-width: 1024px){
+            margin: 18% 0 0 19%;
+        }
+        @media screen and (max-width: 768px){
+            width: 50vw;
+            margin: 18% 0 0 19%;
+        }
+        @media screen and (max-width: 375px){
+           width: 69vw;
+           margin: 5% 0 0 19%;
+        }
+    }
+    .re7_coupon_pic{
+        width: 43vw;
+        margin: 5% 18% 5% 27%;
+        @media screen and (max-width: 1400px){
+           width: 47vw;
+        }
+        @media screen and (max-width: 1200px){
+            width: 49vw;
+        }
+        @media screen and (max-width: 786px){
+            width: 68vw;
+            margin: 7% 18% 5% 18%;
+        }
+        @media screen and (max-width: 414px){
+            width: 77vw;
+            margin: 6% 11% 5% 11%;
+        }
+        @media screen and (max-width: 320px){
+            width: 86vw;
+            margin: -1% 11% 5% 11%;
+        }
+        
+    }
+    .coupon_part1{
+        .little_title{
+            margin: 6% 0 0 0;
+            .circle1{
+                @media screen and (max-width: 414px){
+                    left: -26%;
+                    bottom: 9px;
+                }
+            }
+            .circle2{
+                @media screen and (max-width: 414px){
+                    right: 34%;
+                    bottom: 24px;
+                }
+            }
+            h2{
+                @media screen and (max-width: 414px){
+                    font-size: 24px;
+                    bottom: 7px;
+                }
+            
+            } 
+        }
+    }
+    .coupon_description{
+        background-color: $brand-re;
+        color: #fff;
+        font-size: 13px;
+        display: inline-block;
+        padding: 12px 130px;
+        letter-spacing: 2px;
+        font-weight: 320;
+        border-radius: 30px;
+        margin: 3% 15% 2% 16%;
+        @media screen and (max-width: 1200px){
+            padding: 12px 70px;
+        }
+        @media screen and (max-width: 768px){
+            padding: 17px 21px;
+            margin: -1% 10% 9% 16%;
+        }
+        @media screen and (max-width: 414px){
+            padding: 17px 22px;
+            border-radius: 10px;
+            line-height: 20px 
+        }
+        
+        span{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 450;
+            
+        }
+    }
+    .content_title{
+        margin: 9% 3% 3% 16%;
+        @media screen and (max-width: 768px){
+            margin: 9% 11% 3% 16%;
+        }
+        @media screen and (max-width: 414px){
+            margin: 17% 3% 3% 16%;
+        }
+    }
+    
+    .coupon_li1{
+        @media screen and (max-width: 414px){
+            margin: 17% 9% 3% 15%;
+        }
+        h2{
+            padding: 18px 46px 13px 46px;
+            position: relative;
+            bottom: 117px;
+            @media screen and (max-width: 1024px){
+                bottom: 108px;
+                padding: 18px 50px 13px 50px;
+                margin-right: 2%;
+            }
+            @media screen and (max-width: 768px){
+               bottom: 0;
+               margin-bottom: 4%;
+            }
+            @media screen and (max-width: 414px){
+                text-align: center;
+                padding: 15px 50px 9px 50px;
+            }
+        }
+        ul{
+            @media screen and (max-width: 768px){
+                padding-left: 11%;
+            }
+            @media screen and (max-width: 414px){
+                margin-top: 10%;
+                width: 62vw;
+            }
+        }
+
+    }
+    .coupon_li2{
+        @media screen and (max-width: 414px){
+            margin: 9% 11% 3% 16%;
+        }
+        h2{
+            position: relative;
+            bottom: 147px;
+            margin-bottom: 12%;
+            @media screen and (max-width: 1024px){
+                margin-right: 2%;
+            }
+            @media screen and (max-width: 768px){
+                bottom: 0;
+                margin-bottom: 0;
+            }
+            @media screen and (max-width: 414px){
+                text-align: center;
+            }
+        }
+        ul{
+            @media screen and (max-width: 768px){
+                padding-left: 11%;
+            }
+        }
+    }
+    .coupon_part2{
+        .re7_coupon_how{
+            margin-top: 0;
+            @media screen and (max-width: 414px){
+                margin-bottom: 30px;
+            }
+            h2{
+                color: lighten($brand-black,30%); 
+                font-size: 17px;
+                font-weight: 450;
+                @media screen and (max-width: 414px){
+                    font-size: 15px;
+                }
+            }
+            .circle1{
+                left: -10%;
+                bottom: 14px;
+                @media screen and (max-width: 1200px){
+                    left: -13%;
+                }
+                @media screen and (max-width: 1024px){
+                    left: -17%;
+                }
+                @media screen and (max-width: 768px){
+                    left: -20%;
+                }
+                @media screen and (max-width: 414px){
+                    left: -29%;
+                }
+            }
+            .circle2{
+                right: 19%;
+                @media screen and (max-width: 1200px){
+                    right: 22%;
+                }
+                @media screen and (max-width: 768px){
+                    right: 28%;
+                }
+                @media screen and (max-width: 414px){
+                    bottom: 24px;
+                    right: 36%;
+                }
+            }
+        }
+        .re7_coupon_thinking{
+            background-color: #F9F9F9;
+            background-image: none;
+            text-align: center;
+            ul{
+                position: relative;
+                @media screen and (max-width: 1024px){
+                    margin: 5% 1%;
+                }
+                @media screen and (max-width: 768px){
+                    margin: 5% 0;
+                }
+                @media screen and (max-width: 414px){
+                    margin: 0;
+                    padding: 15% 0;
+                }
+                li{
+                    margin: 3% 2%;
+                    @media screen and (max-width: 1024px){
+                        margin: 3% 6%;
+                    }
+                    @media screen and (max-width: 768px){
+                        margin: 3% 2%;
+                    }
+                    img{
+                        width: 9vw;
+                        @media screen and (max-width: 768px){
+                            width: 18vw;
+                        }
+                        @media screen and (max-width: 414px){
+                            width: 31vw;
+                        }
+                    }
+                    h2{
+                        color: $brand-re;
+                        border: 1px solid $brand-re;
+                        padding: 14px 12px 9px 12px;
+                        border-radius: 20px;
+                        @media screen and (max-width: 768px){
+                            background-color: #fff;
+                            border: 0;
+                        }
+                    }
+                }
+                .coupon_kind{
+                    position: relative;
+                    top: 25px;
+                    @media screen and (max-width: 1200px){
+                        top: 50px
+                    }
+                    @media screen and (max-width: 1024px){
+                        top: 25px;
+                    }
+                }
+                .coupon_use{
+                    position: relative;
+                    top: 1px;
+                    @media screen and (max-width: 1024px){
+                        top: -22px;
+                    }
+                    @media screen and (max-width: 768px){
+                        margin: 3% 3%;
+                        width: 24vw;
+                    }
+                    @media screen and (max-width: 414px){
+                        width: 50vw;
+                        margin: 4% 3%;
+                    }
+                }
+                .coupon_price{
+                    position: relative;
+                    bottom: 25px;
+                    @media screen and (max-width: 1500px){
+                        bottom: 0;
+                    }
+                    @media screen and (max-width: 1024px){
+                        bottom: 49px;
+                    }
+                    @media screen and (max-width: 768px){
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .coupon_part3{
+        .coupon_the_first_stage{
+            h2{
+                position: relative;
+                bottom: 16px;
+                @media screen and (max-width: 414px){
+                    text-align: center;
+                }
+            }
+            ul{
+                padding-left: 0;
+                margin-bottom: 0;
+            }
+        }
+        .coupon_the_two_stage{
+            h2{
+                position: relative;
+                bottom: 46px;
+                @media screen and (max-width: 768px){
+                    bottom: 0;
+                }
+                @media screen and (max-width: 414px){
+                    text-align: center;
+                    bottom: 0;
+                }
+            }
+            ul{
+                @media screen and (max-width: 1024px){
+                    padding-left: 0;
+                }
+                @media screen and (max-width: 414px){
+                    padding-left: 0;
+                }
+            }
+        }
+        h2{
+            position: relative;
+            bottom: 0;
+        }
+        .part3_one{
+            margin: 11% 3% 3% 16%;
+            @media screen and (max-width: 768px){
+                margin: 13% 3% 3% 16%;
+                position: relative;
+                top: 31px;
+            }
+            @media screen and (max-width: 414px){
+                margin: 11% 3% 0% 16%;
+                top: 0;
+            }
+            @media screen and (max-width: 375px){
+                margin: 18% 3% 3% 16%;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    width: 28vw;
+                    @media screen and (max-width: 768px){
+                        width: 60vw;
+                        padding-left: 38px;
+                    }
+                    @media screen and (max-width: 414px){
+                        margin: 3% 7%;
+                        padding-left: 0;
+                    }
+                }
+                
+            }
+        }
+        .re7_coupon_receive_page{
+            width: 40vw;
+            margin: 11% 25% 5% 25%;
+            @media screen and (max-width: 1400px){
+               width: 44vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 60vw;
+                margin: 11% 26% 5% 20%;
+            }
+            @media screen and (max-width: 414px){
+                width: 74vw;
+                margin: 11% 26% 5% 8% ;
+            }
+            @media screen and (max-width: 320px){
+                width: 82vw;
+                margin: 11% 29% 5% 11%;
+            }
+            
+        }
+        .re7_coupon_demo{
+            width: 78vw;
+            @media screen and (max-width: 1200px){
+                width: 84vw;
+            }
+            @media screen and (max-width: 1024px){
+                width: 94vw;
+            }
+            @media screen and (max-width: 768px){
+                width: 104vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 138vw;
+                position: relative;
+                right: 97px;
+            }
+            
+        }
+        .re7_coupon_last_title{
+            margin: 0px 60% -2px 11%;
+            position: relative;
+            bottom: 236px;
+            text-align: none;
+            @media screen and (max-width: 768px){
+                margin: 0px 47% -2px 11%;
+            }
+            @media screen and (max-width: 768px){
+                position: relative;
+                bottom: 110px;
+            }
+            @media screen and (max-width: 414px){
+                bottom: 43px;
+                margin: 0 4% -2px 12%;
+            }
+            img{
+                width: 4vw;
+                @media screen and (max-width: 768px){
+                    width: 6vw;
+                }
+                @media screen and (max-width: 414px){
+                    width: 9vw;
+                }
+            }
+            .circle1{
+                left: -11%;
+                top: 30px;
+                @media screen and (max-width: 414px){
+                   left: -3%;
+                }
+            }
+            .circle2{
+                right: 33%;
+                bottom: -17px;
+                @media screen and (max-width: 414px){
+                    right: 21%;
+                }
+            }
+            h2{
+                font-size: 23px;
+                margin: -2% 0 0 18%;
+                @media screen and (max-width: 768px){
+                    font-size: 25px;
+                    margin: -1% 0 0 16%;
+                }
+            }
+            .coupon_word{
+                color: lighten($brand-black,30%); 
+                font-size: 13px;
+                position: relative;
+                left: 18%;
+                bottom: -33px;
+                width: 28vw;
+                @media screen and (max-width: 768px){
+                    bottom: -15px;
+                    width: 41vw;
+                }
+                @media screen and (max-width: 414px){
+                    width: 57vw;
+                    bottom: -5px;
+                    left: 17%;
+                }
+            }
+        }
+        
+    }
+}
+
+// re8_icon
+
+.re8_icon{
+    background-image: url(/images/re/re8-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .icon_all{
+        text-align: center;
+        .re8_icon_title{
+            margin-top: -5%;
+            position: relative;
+            top: 228px;
+            @media screen and (max-width: 768px){
+                top: 179px;
+            }
+            @media screen and (max-width: 414px){
+                top: 95px;
+            }
+            h2{
+                font-size: 32px;
+            }
+            p{
+                font-size: 15px;
+                @media screen and (max-width: 414px){
+                    font-size: 12px;
+                    bottom: 14px;
+                }
+            }
+            .circle1{
+                width: 8vw;
+                left: -4%;
+                @media screen and (max-width: 414px){
+                    width: 13vw;
+                    left: -6%;
+                }
+            }
+            .circle2{
+                width: 8vw;
+                right: 18%;
+                bottom: -7px;
+                @media screen and (max-width: 414px){
+                    width: 12vw;
+                }
+            }
+        }
+        .re8-icon-all{
+            width: 58vw;
+            margin: 25% 0 11% 0;
+            @media screen and (max-width: 768px){
+                width: 85vw;
+            }
+        }
+    }
+    .download{
+        text-align: center;
+        margin-bottom: 17%;
+        .apple{
+            width: 18vw;
+            margin: 0 3%;
+            @media screen and (max-width: 414px){
+                width: 28vw;
+            }
+        }
+        .google_play{
+            width: 18vw;
+            margin: 0 3%;
+            @media screen and (max-width: 414px){
+                width: 28vw;
+            }
+        }
+    }
+    
+}
+
+// re_footer
+
+.re_footer{
+    @media screen and (max-width: 320px){
+        width: 118vw;
+    }
+}

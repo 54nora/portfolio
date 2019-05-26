@@ -1,0 +1,551 @@
+// font
+.moon_word{
+    color: #fff;
+    font-size: 14px;
+    font-family: $font-chinese;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+// header
+.moon_header{
+    @media screen and(max-width: 320px){
+        width: 108vw;
+    }
+}
+
+// warp
+.warp_moon{
+    background-image:url(/images/moon-festival/moon1-bc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #090610;
+    @media screen and(max-width: 320px){
+        width: 100vw;
+    }
+}
+
+// moon1_start
+
+.moon1_start{
+    .moon{
+        width: 22vw;
+        display: block;
+        margin: 0 15% 0 60%;  
+    }
+    .moon1_main_visual{
+        text-align: center;
+        position: relative;
+        .moon1_title{
+            .title{
+                width: 50vw;
+                margin-top: -8%;
+                @media screen and(max-width: 1400px){
+                    width: 52vw;
+                    margin-top: -4%;
+                }
+                @media screen and(max-width: 1300px){
+                    width: 57vw;
+                    margin-top: -1%;
+                }
+                @media screen and(max-width: 768px){
+                    width: 78vw;
+                    margin-top: -6%;
+                }
+                @media screen and(max-width: 414px){
+                    width: 83vw;
+                }
+                @media screen and(max-width: 375px){
+                    width: 78vw;
+                }
+            }
+        }
+        
+    }
+    .fire{
+        width: 21vw;
+        margin: -11% 14% 0 4%;
+        position: relative;
+        z-index: 4;
+        @media screen and(max-width: 414px){
+            width: 32vw;
+            margin: -5% 14% 0 7%;
+        }
+    }
+    .fire-rabbit{
+        width: 10vw;
+        margin: -19% 0 0 36%;
+        @media screen and(max-width: 1300px){
+            margin: -13% 0 0 41%;
+        }
+        @media screen and(max-width: 414px){
+            width: 12vw;
+            margin: -25% 0 0 81%;
+        }
+    }
+}
+
+// moon2_about
+
+
+.moon2_about{
+    text-align: center;
+    .moon2_title{
+        text-align: center;
+        margin-top: 6%;
+        @media screen and(max-width: 1200px){
+            margin-bottom: 8%;
+        }
+        .moon2_title_pic{
+            width: 33vw;
+            margin-bottom: 1%;
+            @media screen and(max-width: 768px){
+                width: 65vw;
+            }
+            @media screen and(max-width: 414px){
+                display: none;
+            }
+        }
+        .moon2_title_pic_small{
+            display: none;
+            @media screen and(max-width: 414px){
+                display: block;
+                width: 50vw;
+                margin: 3% auto;
+            }
+        }
+        
+    }
+    .moon2_content{
+        @media screen and(max-width: 768px){
+            margin-top: 8%;
+        }
+        .web_phone{
+            width: 26vw;
+            display: inline-block;
+            position: relative;
+            bottom: 75px;
+            @media screen and(max-width: 1500px){
+                width: 37vw;
+            }
+            @media screen and(max-width: 1300px){
+                width: 38vw;
+            }
+            @media screen and(max-width: 1200px){
+                width: 56vw;
+                left: 3%;
+            }
+            @media screen and(max-width: 768px){
+                width: 62vw;
+                bottom: 52px;
+                margin: 0 2%;
+            }
+            @media screen and(max-width: 414px){
+                width: 77vw;
+                bottom: 23px;
+                margin: 0 0 5% 0;
+            }
+        }
+        .describe{
+            display: inline-block;
+            margin: 4% 0;
+            .moon2_about_word{
+                font-size: 13px;
+                display: block;
+                width: 33vw;
+                text-align: left;
+                @media screen and(max-width: 1300px){
+                    width: 51vw;
+                    margin: -12% auto 0 auto;
+                }
+                @media screen and(max-width: 414px){
+                    width: 70vw;
+                    margin: -4% auto 0 auto;
+                }
+            }
+            .moon2_pic{
+                width: 40vw;
+                margin-left: 22%;
+                margin-top: -13%;
+                @media screen and(max-width: 1200px){
+                    width: 55vw;
+                }
+                @media screen and(max-width: 1300px){
+                    width: 66vw;
+                }
+                @media screen and(max-width: 768px){
+                    margin-left: 21%;
+                }
+                @media screen and(max-width: 414px){
+                    width: 90vw;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+}
+
+// moom3_introduct
+
+.moon3_introduct{
+    .moon3_title{
+        text-align: center;
+        .moon3_title_pic{
+            width: 36vw;
+            margin: 3% 0 9% 0;
+            @media screen and(max-width: 1300px){
+                width: 38vw;
+            }
+            @media screen and(max-width: 1024px){
+                margin: 3% 0 15% 0;
+            }
+            @media screen and(max-width: 414px){
+                width: 80vw;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .moon3_demo_page{
+        ul{
+            margin-bottom: 10%;
+            margin-top: 5%;
+            li{
+                text-align: center;
+                display: inline-block;
+                width: 18%;
+                position: relative;
+                bottom: 96px;
+                @media screen and(max-width: 1200px){
+                    width: 31%;
+                }
+                @media screen and(max-width: 414px){
+                    width: 90%;
+                    display: block;
+                    margin-bottom: 9%;
+                    margin-right: 0;
+                    bottom: 0;
+                }
+                img{
+                    width: 12vw;
+                    margin-bottom: 12%;
+                    @media screen and(max-width: 1400px){
+                        width: 14vw;
+                    }
+                    @media screen and(max-width: 1300px){
+                        width: 16vw;
+                    }
+                    @media screen and(max-width: 1200px){
+                        width: 19vw;
+                    }
+                    @media screen and(max-width: 1024px){
+                        width: 22vw;
+                    }
+                    @media screen and(max-width: 414px){
+                        width: 65vw;
+                        margin-bottom: 0;
+                    }
+                }
+                .home_page_pic{
+                    width: 21vw;
+                    position: relative;
+                    right: 5%;
+                    @media screen and(max-width: 1400px){
+                        width: 24vw;
+                        right: 8%;
+                    }
+                    @media screen and(max-width: 1200px){
+                        width: 29vw;
+                        right: 5%;
+                    }
+                    @media screen and(max-width: 1024px){
+                        right: 16%;
+                        width: 35vw;
+                    }
+                    @media screen and(max-width: 768px){
+                        width: 40vw;
+                        right: 24%;
+                    }
+                    @media screen and(max-width: 414px){
+                        width: 72vw;
+                        margin-top: -1%;
+                        right: 1%;
+                    } 
+                    @media screen and(max-width: 375px){
+                        right: 2%;
+                    }
+                    
+                }
+                .page_explantion{
+                    width: 87%;
+                    margin: 0 auto;
+                    @media screen and(max-width: 414px){
+                        width: 64%;
+                        margin: 0 auto;
+                    }
+                    img{
+                        width: 1.3vw;
+                        margin: 7% 0;
+                        @media screen and(max-width: 1300px){
+                            width: 1.6vw;
+                        }
+                        @media screen and(max-width: 414px){
+                            width: 7vw;
+                        }
+                    }
+                    .moon3_word{
+                        display: inline-block;
+                        font-size: 10px;
+                    }
+                }
+                .home_page_word{
+                    position: relative;
+                    left: 6%;
+                    @media screen and(max-width: 414px){
+                        left: 0;
+                    }
+                }
+            }
+            .home_page{
+                width: 25%;
+                position: relative;
+                bottom: 0;
+                @media screen and(max-width: 1200px){
+                    width: 30%;
+                }
+                @media screen and(max-width: 414px){
+                    width: 90%;
+                }
+            }
+            .rule{
+                @media screen and(max-width: 1200px){
+                   display: none;
+                }
+                @media screen and(max-width: 414px){
+                    display: block;
+                 }
+            }
+            .precautions{
+                @media screen and(max-width: 1200px){
+                    display: none;
+                }
+                @media screen and(max-width: 414px){
+                    display: block;
+                }
+            
+            }
+        }
+    }
+}
+
+// moon4_game
+
+.moon4_game{
+    .moon4_pic{
+        width: 35vw;
+        margin-top: -19%;
+        position: relative;
+        left: 63%;
+        top: 101px;
+        @media screen and(max-width: 414px){
+            width: 86vw;
+            margin-top: -19%;
+            left: 27%;
+            top: -29px;
+        }
+    }
+    .moon4_title{
+        text-align: center;
+        .moon4_title_pic{
+            width: 13vw;
+            position: relative;
+            right: 4%;
+            @media screen and(max-width: 768px){
+                width: 22vw;
+            }
+            @media screen and(max-width: 414px){
+                width: 40vw;
+            }
+        }
+        .moon4_word{
+            width: 50vw;
+            margin: 5% auto 10% auto;
+            position: relative;
+            z-index: 5;
+            @media screen and(max-width: 414px){
+                width: 68vw;
+                margin: 14% auto 10% auto;
+            }
+        }
+    }
+    .game_page{
+        text-align: center;
+        margin: 5% auto;
+        @media screen and(max-width: 1200px){
+            margin: 17% auto;
+        }
+        .moon4_brand{
+            width: 19vw;
+            margin: 0 11%;
+            @media screen and(max-width: 1300px){
+                width: 24vw;
+                margin: 0 7%;
+            }
+            @media screen and(max-width: 1100px){
+                width: 27vw;
+            }
+            @media screen and(max-width: 768px){
+                width: 30vw;
+            }
+            @media screen and(max-width: 414px){
+                width: 65vw;
+                margin: 0 auto 18% auto;
+            }
+        }
+        .moon4_phone{
+            width: 31vw;
+            @media screen and(max-width: 1300px){
+                width: 36vw;
+            }
+            @media screen and(max-width: 1100px){
+                width: 40vw;
+            }
+            @media screen and(max-width: 768px){
+                width: 48vw;
+            }
+            @media screen and(max-width: 414px){
+                width: 74vw;
+            }
+        }
+    }
+}
+
+// moon5_obtain
+.moon5_obtain_red_envelope{
+    text-align: center;
+    margin: 10% 0 11% 0;
+    .moon5_title{
+        text-align: center;
+        .moon5_title_pic{
+            width: 45vw;
+            margin: 5% 0 8% 0;
+            position: relative;
+            right: 4%;
+            @media screen and(max-width: 768px){
+                width: 65vw;
+            }
+            @media screen and(max-width: 414px){
+                display: none;
+            }
+        }
+        .moon5_title_pic_small{
+            display: none;
+            @media screen and(max-width: 414px){
+                display: block;
+                width: 64vw;
+                margin: 14% auto;
+                position: relative;
+                right: 4%;
+            }
+        }
+        .moon5_word{
+            width: 32vw;
+            margin: 0 auto;
+            @media screen and(max-width: 768px){
+                width: 31vw;
+            }
+            @media screen and(max-width: 414px){
+                width: 64vw;
+            }
+        }
+        .moon5_obtain_red{
+            width: 23vw;
+            margin: 7% 0;
+            @media screen and(max-width: 414px){
+                width: 64vw;
+                margin: 19% 0;
+            }
+        }
+    }
+    .moon5_phone{
+        width: 23vw;
+        margin: 2%;
+        @media screen and(max-width: 1300px){
+            width: 26vw;
+        }
+        @media screen and(max-width: 1200px){
+            width: 30vw;
+        }
+        @media screen and(max-width: 414px){
+            width: 68vw;
+            margin-bottom: 12%;
+        }
+    }
+    .moon5_phone_page{
+        width: 18vw;
+        @media screen and(max-width: 1300px){
+            width: 21vw;
+        }
+        @media screen and(max-width: 1200px){
+            width: 23vw;
+            @media screen and(max-width: 414px){
+                width: 58vw;
+            }
+        }
+    }
+}
+
+// moon6_landing_page
+
+.moon6_landing_page{
+    text-align: center;
+    margin-bottom: 5%;
+    .moon6_title{
+        .moon6_title_pic{
+            width: 30vw;
+            margin-bottom: 6%;
+            position: relative;
+            right: 3%;
+            @media screen and(max-width: 768px){
+                width: 45vw;
+            }
+            @media screen and(max-width: 414px){
+                display: none;
+            }
+        }
+        .moon6_title_pic_small{
+            display: none;
+            @media screen and(max-width: 414px){
+                display: block;
+                width: 58vw;
+                margin: 2% auto 13% auto;
+                position: relative;
+                right: 6%;
+            }
+        }
+    }
+    .moon6_landing_page{
+        width: 40vw;
+        @media screen and(max-width: 1024px){
+            width: 50vw;
+        }
+        @media screen and(max-width: 414px){
+            width: 74vw;
+        }
+    }
+}
+
+// moon7_footer
+
+.moon7_footer{
+    .moon7_footer_pic{
+        width: 100%;
+        margin-top: -22%;
+    }
+}
+
+// footer
+.moon_footer{
+    @media screen and(max-width: 320px){
+        width: 110vw;
+    }
+}

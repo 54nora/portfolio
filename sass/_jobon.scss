@@ -1,0 +1,1240 @@
+$touch-action: manipulation;
+
+// header
+.jobon_header{
+    @media screen and (max-width: 320px){
+        width: 112vw;
+    }
+}
+
+// title
+.warp{
+    background-color: $brand-white;
+    overflow: hidden;
+    height: 100%;
+}
+.warp_jobon{
+    @media screen and (max-width: 414px){
+        width: 90vw;
+    }
+    @media screen and (max-width: 320px){
+        width: 104vw;
+    }
+}
+.jobon-title{
+    background-image: url(/images/jobon/jobon-bc.jpg);
+    background-repeat: no-repeat;
+    height: 60vh;
+    .introduction{
+        position: absolute;
+        left: 14%;
+        padding-top: 11%;
+        // @media screen and (max-width: 768px){
+        //     top: 119px;
+        // }
+        @media screen and (max-width: 414px){
+            left: 16%;
+            top: 114px;
+        }
+        h2{
+            color: $brand-white;
+            font-family:$font-secondary;
+            font-size: 50px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            font-weight: 800;
+            @media screen and (max-width: 414px){
+               font-size: 33px;
+            }
+        }
+        p{
+            font-size: 13px;
+            color: $brand-white;
+            font-family: $font-primary;
+            font-weight: 500;
+            position: relative;
+            left: -3px;
+            bottom: 7px;
+            letter-spacing: 3px;
+            @media screen and (max-width: 414px){
+                font-size: 12px;
+                bottom: 6;
+             }
+        }
+        a{
+            border: solid 1px $brand-white;
+            padding: 17px 64px;
+            color: $brand-white;
+            border-radius: 50px;
+            text-decoration: none;
+            position: relative;
+            bottom: -15px;
+            letter-spacing: 3px;
+            font-size: 14px;
+            @media screen and (max-width: 414px){
+                font-size: 12px;
+                padding: 13px 42px;
+                bottom: 1;
+             }
+            &:hover{
+                background-color: lighten($brand-white,90%);
+                color: #F4511E;
+                transition: all 0.5s linear;
+            }
+        }    
+    }
+}
+
+.date{
+    position: relative;
+    @media screen and (max-width: 414px){
+        top: 110px;
+    }
+    .jobon-logo{
+        display: inline-block;
+        position: relative;
+        left: 15%;
+        bottom: -58px;
+        margin-right: 68%;
+        line-height: 20px;
+        @media screen and (max-width: 1300px){
+            // bottom: -80px;
+        }
+        @media screen and (max-width: 1024px){
+            left: 14%;
+            bottom: -41px;
+            margin-right: 32%;
+        }
+        @media screen and (max-width: 900px){
+            bottom: -182px;
+        }
+        @media screen and (max-width: 768px){
+            left: 14%;
+            bottom: 36px;
+            margin-right: 32%;
+        }
+        img.icon{
+            position: relative;
+            width: 3.4vw;
+            z-index: 1;
+            @media screen and (max-width: 414px){
+                width: 14.4vw;
+            }
+        }
+        p{
+            position: relative;
+            display: inline;
+            font-family: $font-chinese;
+            color: #F4511E;
+            letter-spacing: 2px;
+            font-weight: 600;
+            z-index: 1;
+            bottom: -10px;
+            left: 12px;
+            @media screen and (max-width: 414px){
+                letter-spacing: 1px;
+             }
+            @media screen and (max-width: 375px){
+                letter-spacing: 0.5px;
+            }
+            span{
+                font-size: 14px;
+                color: $brand-word;
+                transform: translate(.5s)
+            }
+        }
+    }
+    .phone{
+        width: 35vw;
+        position: relative;
+        z-index: 1;
+        left: 48%;
+        bottom: 395px;
+        @media screen and (max-width: 1900px){
+			width: 31vw;
+        }
+        @media screen and (max-width: 1500px){
+			width: 38vw;
+        }
+        @media screen and (max-width: 1300px){
+            width: 44vw;
+            bottom: 297px;
+        }
+        @media screen and (max-width: 1200px){
+            width: 43vw;
+            position: relative;
+            bottom: 365px;
+            left: 408px;
+        }
+        @media screen and (max-width: 1024px){
+            width: 57vw;
+            position: relative;
+            bottom: 560px;
+            left: 301px;
+        }
+        @media screen and (max-width: 900px){
+            bottom: 365px;
+            left: 169px;
+        }
+        @media screen and (max-width: 768px){
+            bottom: 524px;
+            left: 232px;
+        }
+        @media screen and (max-width: 414px){
+            width: 73vw;
+            bottom: 447px;
+            left: 71px;
+        }
+        @media screen and (max-width: 375px){
+            bottom: 443px;
+            left: 55px;
+        }
+    }
+}
+
+// about
+
+.about{
+    background-color: $brand-white;
+    margin: 0 100px;
+    position: relative;
+    bottom: 235px;
+    margin: 0 16%;
+    @media screen and (max-width: 1024px){
+        bottom: 284px;
+    }
+    @media screen and (max-width: 900px){
+        bottom: 146px;
+    }
+    @media screen and (max-width: 414px){
+        bottom: 116px;
+    }
+    @media screen and (max-width: 375px){
+        bottom: 91px;
+    }
+    h3{
+        font-size: 22px;
+        color: #000;
+        font-family: $font-secondary;
+        font-weight: 700;
+        position: relative;
+        right: 20px;
+        margin-bottom: 55px;
+        @media screen and (max-width: 414px){
+            // margin-bottom: 32px;
+            right: 0;
+            margin-bottom: 33px;
+         }
+        &:before{
+            position: absolute;
+            top: 12px;
+            left: 98px;
+            right: 0;
+            content: '';
+            width: 40px;
+            height: 1.2px;
+            background:  #F4511E;
+        }
+    }
+}
+
+h2.second_title{
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-family: $font-chinese;
+    font-weight: 500;
+}
+
+p.content{
+    color: $brand-word;
+    font-size: 14px;
+    // @media screen and (max-width: 375px){
+    //     font-size: 8px;
+    // }
+    &.text2{
+        margin-top: 80px;
+        margin-left: 7%;
+        margin-right: 7%;
+        @media screen and (max-width: 1024px){
+            margin: 107px 22% 0 14%;
+        }
+        @media screen and (max-width: 768px){
+            margin: 107px 7% 0 11% ;
+        }
+        @media screen and (max-width: 414px){
+            margin: 106px 11% 0 11%;
+        }
+    }
+}
+
+// big title
+
+.big_title{
+    margin: -50px 10% 9% 10%;
+    @media screen and (max-width: 414px){
+        margin: -50px 0 9% 17%;
+    }
+    @media screen and (max-width: 375px){
+        margin: -50px 0 9% 38%;
+    }
+    
+    h1.number{
+        display: inline-block;
+        color: #F4511E;
+        font-size: 41px;
+        padding: 10px 30px;
+        font-family: $font-secondary;
+        border: solid 1px #F4511E;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 20px;
+        color: #F4511E;
+        font-family: $font-secondary;
+        display: inline-block;
+        letter-spacing: 3px;
+        line-height: 30px;
+        font-weight: 700;
+        position: relative;
+        top: 63px;
+        right: 6%;
+        @media screen and (max-width: 414px){
+            top: 9px;
+            right: 13%;
+            font-size: 16px;
+            line-height: 23px;
+        }
+    }
+    .cover{
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        display: inline-block;
+        position: relative;
+        top: 54px;
+        right: 42px;
+        @media screen and (max-width: 414px){
+            // width: 100px;
+            // top: 55px;
+            // right: 67px;
+        }
+
+    }
+}
+
+.person{
+    margin: 0 17%;
+    @media screen and (max-width: 414px){
+       margin: 0 10% 0 3%;
+    }
+    img.person{
+        width: 4.5vw;
+        margin: 50px 0;
+        position: relative;
+        top: 26px;
+        @media screen and (max-width: 414px){
+            width: 14vw;
+            top: -74px;
+            left: 135px;
+        }
+    }
+    .second_title{
+        display: inline-block;
+        font-size: 18px;
+        position: relative;
+        left: 5%;
+        @media screen and (max-width: 414px){
+            left: 43px;
+        }
+    }
+    .content{
+        display: inline-block;
+        margin: 0 10%;
+        position: relative;
+        left: 5%;
+        bottom: 76px;
+        @media screen and (max-width: 414px){
+            left: 4%;
+        }
+    }
+    img.travel{
+        width: 8vw;
+        position: relative;
+        margin: 47px 40%;
+        @media screen and (max-width: 1024px){
+            width: 22vw;
+            margin: 0 28%;
+        }
+        @media screen and (max-width: 414px){
+            margin: 0 40%;
+        }
+    }
+}
+
+.title2{
+    margin: 0 20%;
+    position: relative;
+    top: 63px;
+    @media screen and (max-width: 414px){
+        // margin: 0 -36%;
+    }
+    .big_title{
+        // // position: relative;
+        // left: 12%;
+        @media screen and (max-width: 414px){
+            // left: 15%;
+            margin: -35px 0 14% 17%;
+        }
+        h2{
+            // top: 30px;
+            // right: 10%;
+            @media screen and (max-width: 414px){
+                // top: 33px;
+                // right: 30%;
+                // font-size: 17px;
+            }
+        }
+    }
+}
+
+// jobon-2
+.jobon-2{
+    background-color: #FAF7F0;
+    margin: 10% 0%;
+    @media screen and (max-width: 414px){
+        background-color: #fff;
+    }
+}
+
+.map{
+    margin: 14% 0;
+}
+
+img.map{
+    width: 47vw;
+    padding: 50px;
+    margin: 0 17%;
+    @media screen and (max-width: 1024px){
+        width: 63vw;
+    }
+    @media screen and (max-width: 414px){
+        width: 93vw;
+        padding: 29px;
+        margin: 37px -1%;
+    }
+}
+
+
+// jobon-3
+
+.jobon-3{
+    margin: 3% 6%;
+    .big_title{
+        @media screen and (max-width: 1024px){
+            margin: -50px 8% 10% 12%;
+        }
+        @media screen and (max-width: 414px){
+            // margin: -50px -55% -11% -3%;
+            margin-bottom: 0;
+        }
+        h2{
+            // position: relative;
+            // right: 9%;
+            @media screen and (max-width: 414px){
+                right: -29%;
+                margin-bottom: 0;
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+.block_color{
+    ul{
+        position: relative;
+        top: 50px;
+        text-align: center;
+        @media screen and (max-width: 1024px){
+            margin: 0 4%;
+        }
+        @media screen and (max-width: 768px){
+            margin: 0 -2%;
+        }
+        @media screen and (max-width: 414px){
+            margin: 0 ;
+            padding-left: 0;
+        }
+        li{
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            margin: 0 2%;
+            text-align: center;
+            @media screen and (max-width: 414px){
+                margin: 0 3%;
+            }
+            .block{
+                width: 70px;
+                height: 70px;
+                border-radius: 5px; 
+                @media screen and (max-width: 414px){
+                    width: 85px;
+                    height: 85px;
+                }
+                &.color1{
+                    background-color: #FBE9E7;
+                }
+                &.color2{
+                    background-color: #FFCCBC;
+                }
+                &.color3{
+                    background-color: #FFAB91;
+                }
+                &.color4{
+                    background-color: #FF8A65;
+                }
+                &.color5{
+                    background-color: #FF7043;
+                }
+                &.color6{
+                    background-color: #F4511E;
+                }
+                
+            }
+            p{
+                font-size: 14px;
+                color: $brand-black;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+// jobon-4
+
+.jobon-4{
+    margin: 18% 30%;
+    @media screen and (max-width: 414px){
+        margin: 5% 19%;
+    }
+    .big_title{
+        margin: 80px 0px 130px 0;
+        h2{
+            position: relative;
+            top: 40px;
+            right: 8%;
+            @media screen and (max-width: 1024px){
+                top: -10px;
+                right: -21%;
+            }
+            @media screen and (max-width: 414px){
+                top: 7px;
+                right: -21px;
+                &:before{
+                    display: none;
+                }
+                &:after{
+                    display: none;
+                }
+
+            }
+            &:before{
+                position: absolute;
+                top: 17px;
+                left: -132%;
+                right: 0;
+                content: '';
+                width: 200px;
+                height: 1px;
+                background:  #F4511E;
+                @media screen and (max-width: 1024px){
+                    width: 135px;
+                    left: -97%;
+                }
+            }
+            &:after{
+                position: absolute;
+                top: 17px;
+                left: 120%;
+                right: 0;
+                content: '';
+                width: 200px;
+                height: 1px;
+                background:  #F4511E;
+                @media screen and (max-width: 1024px){
+                    width: 135px;
+                    left: 118%;
+                }
+            }
+        }
+    }
+    .wirefram img{
+        width: 38vw;
+        position: relative;
+        right: 60px;
+        @media screen and (max-width: 1024px){
+            width: 76vw;
+            right: 200px;
+            bottom: 18px;
+        }
+        @media screen and (max-width: 768px){
+            width: 87vw;
+            right: 200px;
+            bottom: 18px;
+        }
+        @media screen and (max-width: 414px){
+            width: 72vw;
+            right: 28px;
+            bottom: 88px;
+        }
+
+    }
+
+}
+
+// jobon-5
+
+.jobon-5{
+    .jobon-5-top{
+        text-align: center;
+        margin: 0 28%;
+        @media screen and (max-width: 414px){
+            margin: 0 -9%;
+            position: relative;
+            right: -7%;
+        }
+        h2{
+            font-size: 50px;
+            color: #F4511E;
+            font-family: $font-secondary;
+            letter-spacing: 4px;
+            font-weight: 900;
+            margin-bottom: 2px;
+            @media screen and (max-width: 1024px){
+              font-size: 58px;
+              position: relative;
+              right: 4%;
+            }
+            @media screen and (max-width: 414px){
+                font-size: 39px;
+                right: 5%;
+            }
+        }
+        p{
+            font-size: 13px;
+            color: lighten($brand-black,80%);
+            @media screen and (max-width: 1024px){
+                position: relative;
+                right: 4%;
+            }
+            @media screen and (max-width: 1024px){
+                font-size: 11px;
+                bottom: -6px;
+            }
+              
+        }
+        img{
+            width: 35vw;
+            margin: 12% 0 18% 0;
+            position: relative;
+            right: 31px;
+            @media screen and (max-width: 414px){
+                width: 73vw;
+                margin: 10% 0 17% 0;
+            }
+        }
+        a{
+            text-decoration: none;
+        }
+        a h3{
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #F4511E;
+            border: solid 1px #F4511E;
+            padding: 19px 0px;
+            border-radius: 30px;
+            width: 40%;
+            margin: 0 auto; 
+            font-family:$font-chinese;
+            font-weight: 600;
+            @media screen and (max-width: 1024px){
+                display: inline-block;
+                position: relative;
+                right: 5%;
+            }
+            @media screen and (max-width: 375px){
+                padding: 15px;
+            }
+            &:hover{
+                background-color: #F4511E;
+                color: #fff;
+                transition: all 0.5s linear;
+            }
+        }
+    }
+}
+
+.jobon-5-medium{
+    margin: 1% 19% 4% 32%;
+    @media screen and (max-width: 414px){
+        margin: 25% 17% 11% 16%;
+    }
+    img{
+        width: 8vw;
+        position: relative;
+        top: 118px;
+        right: 28%;
+        @media screen and (max-width: 414px){
+            width: 25vw;
+            top: -14px;
+            right: -82px;
+        }
+        @media screen and (max-width: 414px){
+            right: -70px;
+            top: -29px;
+        }
+        
+    }
+    p{
+        display: inline-block;
+    }
+}
+
+img.hot-pic{
+    width: 27vw;
+    @media screen and (max-width: 1024px){
+       width: 43vw;
+    }
+    @media screen and (max-width: 414px){
+        width: 48vw;
+    }
+    
+}
+img.home-hot{
+    width: 23vw;
+    position: relative;
+    left: 13%;
+    top: 21px;
+    @media screen and (max-width: 1024px){
+        width: 25vw;
+        left: 6%;
+        top: 21px;
+    }
+    @media screen and (max-width: 414px){
+        width: 40vw;
+        left: -12%;
+        // top: 21px;
+    }
+}
+img.find-travel{
+    width: 40vw;
+    margin: 15% 22% 12% 22% ;
+    @media screen and (max-width: 1024px){
+       width: 54vw;
+       margin: 11% 17% 6% 22%;
+    }
+    @media screen and (max-width: 414px){
+        width: 79vw;
+        margin: 16% 0% 6% 6%;
+    }
+}
+
+
+.jobon-5-medium3{
+    img.home-hot2{
+        width: 32vw;
+        position: relative;
+        left: 70px;
+        top: 141px;
+        @media screen and (max-width: 1024px){
+           width: 39vw;
+           left: 90px;
+           top: 85px;
+        }
+        @media screen and (max-width: 414px){
+            width: 62vw;
+            left: 36px;
+            top: 34px;
+        }
+        
+    }
+    img.pink-block2{
+        width: 34vw;
+        position: relative;
+        left: 45%;
+        @media screen and (max-width: 1700px){
+            left: 0.5%;
+        }
+        @media screen and (max-width: 1600px){
+            left: 10.5%;
+        }
+        @media screen and (max-width: 1400px){
+            left: 18%;
+        }
+        @media screen and (max-width: 1024px){
+            position: relative;
+            left: 19%;
+        }
+        @media screen and (max-width: 414px){
+           left: 38%;
+           width: 56vw;
+         }
+	}
+    
+    .text{
+        display: inline-block;
+        position: absolute;
+        right: 5%;
+        bottom: 226px;
+        img.pink-title{
+            width: 25vw;
+            margin: 30px;
+        }
+        
+        li{
+            font-size: 14px;
+            color: #fff;
+            font-weight: 300;
+            text-decoration: none;
+            list-style: none;
+            letter-spacing: 1px;
+            margin: 10px 0;
+        }
+    }
+}
+
+img.travel-map{
+    width: 50vw;
+    @media screen and (max-width: 1024px){
+        width: 59vw;
+        left: 2%;
+        top: 55px;
+    }
+    @media screen and (max-width: 414px){
+        width: 95vw;
+    }
+}
+
+// jobon-6
+
+img.nearby{
+    width: 10vw;
+    margin: 20px;
+    margin: 0 42.4% 6% 42.4%;
+    @media screen and (max-width: 1024px){
+        width: 15vw;
+        margin: 0 0 6% 38.4%;
+    }
+    @media screen and (max-width: 414px){
+        width: 28vw;
+        margin: 0 0 6% 35.4%;
+    }
+}
+
+.jobon-6-top{
+    margin: 15px 23% 0 30%;
+    @media screen and (max-width: 414px){
+        margin: 15px 23% 0 10%;
+    }
+    .jobon-logo{
+        img{
+            width: 5vw;
+            position: relative;
+            left: -15%;
+            bottom: -67px;
+            @media screen and (max-width: 1024px){
+                width: 8vw;
+                left: -17%;
+                bottom: -68px;
+            }
+            @media screen and (max-width: 414px){
+                width: 17vw;
+                left: 39%;
+                bottom: 12px;
+                margin: 14px;
+            }
+            
+        }
+        h2.second_title{
+            display: inline-block;
+            @media screen and (max-width: 414px){
+                font-size: 15px;
+                margin-bottom: 18px;
+                position: relative;
+                left: 9%;
+            }
+        }
+        p.content{
+            position: relative;
+            left: 9%;
+        }
+    }
+}
+.jobon-6-bottom{
+    margin: 0 3%;
+    text-align: center;
+    height: 110vh;
+    @media screen and (max-width: 1300px){
+        height: 90vh;
+    }
+    @media screen and (max-width: 1024px){
+       height: 65vh;
+    }
+    @media screen and (max-width: 414px){
+        margin-top: 60px;
+        height: 70vh;
+    }
+}
+
+img.neabry-app{
+    width: 58vw;
+    margin-top: 225px;
+    position: relative;
+    z-index: 1;
+    left: 3%;
+    @media screen and (max-width: 1500px){
+        width: 65vw;
+        left: -1%;
+    }
+    @media screen and (max-width: 1024px){
+        width: 76vw;
+        margin-top: 217px;
+        left: -2%;
+    }
+    @media screen and (max-width: 414px){
+        width: 84vw;
+        left: -2%;
+        bottom: 146px;
+    }
+    
+}
+img.neabry-bc{
+    width: 62vw;
+    height: 75vh;
+    position: relative;
+    z-index: 2;
+    bottom: 222px;
+    @media screen and (max-width: 1500px){
+        width: 72vw;
+    }
+    @media screen and (max-width: 1300px){
+        width: 84vw;
+    }     
+    @media screen and (max-width: 1024px){
+        width: 84vw;
+        height: 52vh;
+
+    }
+    @media screen and (max-width: 414px){
+        width: 84vw;
+        height: 52vh;
+    }
+}
+img.neabry-app-home{
+    width: 15vw;
+    position: relative;
+    z-index: 3;
+    bottom: 1193px;
+    left: 33%;
+    @media screen and (max-width: 1300px){
+        width: 16vw;
+        bottom: 1066px;
+        left: 28%;
+    }    
+    @media screen and (max-width: 1024px){
+        width: 20vw;
+        left: 31%;
+        bottom: 1086px;
+
+    }
+    @media screen and (max-width: 768px){
+        width: 18vw;
+        bottom: 861px;
+    }
+    @media screen and (max-width: 414px){
+        width: 28vw;
+        bottom: 673px;
+        left: 15%;
+    }
+    @media screen and (max-width: 320px){
+        width: 25vw;
+        bottom: 586px;
+    }
+}
+img.neabry-app-home2{
+    width: 14VW;
+    position: relative;
+    bottom: 530px;
+    z-index: 4;
+    right: 5%;
+    @media screen and (max-width: 1500px){
+        width: 16vw;
+        right: 12%;
+    }
+    @media screen and (max-width: 1024px){
+        width: 21vw;
+        right: 16%;
+        bottom: 530px;
+    }
+    @media screen and (max-width: 414px){
+        width: 27vw;
+        right: 35%;
+        bottom: 391px;
+    }
+
+}
+img.neabry-map{
+    width: 28VW;
+    position: relative;
+    bottom: 830px;
+    left: 4%;
+    z-index: 5;
+    @media screen and (max-width: 1500px){
+        width: 33vw;
+        left: -1%;
+    }
+    @media screen and (max-width: 1500px){
+        bottom: 753px;
+    }
+    @media screen and (max-width: 1024px){
+        width: 38vw;
+        bottom: 725px;
+        left: 0;
+    }
+    @media screen and (max-width: 414px){
+        width: 48vw;
+        bottom: 667px;
+        left: 64px;
+    }
+    @media screen and (max-width: 320px){
+        bottom: 614px;
+    }
+}
+.neabry-cover{
+    width: 65vw;
+    height: 27vh;
+    background-color:#fff;
+    margin-bottom: 45%;
+    position: relative;
+    bottom: 725px;
+    z-index: 5;
+    @media screen and (max-width: 1500px){
+        width: 74vw;
+    }
+    @media screen and (max-width: 1300px){
+        width: 85vw;
+    }
+    @media screen and (max-width: 1024px){
+        width: 86vw;
+        height: 19vh;
+        bottom: 725px;
+    }
+    @media screen and (max-width: 414px){
+        width: 86vw;
+        bottom: 623px;
+    }
+    @media screen and (max-width: 320px){
+        bottom: 585px;
+    }
+}
+
+// jobon-7
+
+.jobon-7{
+    position: relative;
+    z-index: 6;
+    margin: 14% 0 10% 0 ;
+    text-align: center;
+    @media screen and (max-width: 320px){
+        margin: -2% 0 10% 0;
+    }
+    .collection_title{
+        width: 19vw;
+        @media screen and (max-width: 1024px){
+           width: 32vw;
+        }
+        @media screen and (max-width: 414px){
+            width: 60vw;
+        }
+        @media screen and (max-width: 375px){
+            width: 58vw;
+        }
+    }
+    .jobon-7-collection{
+        width: 43vw;
+        @media screen and (max-width: 1024px){
+            width: 65vw;
+        }
+        @media screen and (max-width: 414px){
+            width: 84vw;
+        }
+    }
+    .text{
+        text-align: justify;
+        margin: 13% 20% 13% 19%;
+        @media screen and (max-width: 414px){
+            margin: 20% 18% 20% 17%;
+        }
+        h2{
+            margin-bottom: 12px;
+            color: #F4511E;
+        }
+    }
+}
+
+// jobon-8
+
+.jobon-8{
+    position: relative;
+    z-index: 6;
+    margin: 14% 0 10% 0 ;
+    text-align: center;
+    @media screen and (max-width: 414px){
+        margin: 14% 0 20% 0;
+    }
+    .message-title{
+        width: 6.5vw;
+        @media screen and (max-width: 1024px){
+            width: 11vw;
+        }
+        @media screen and (max-width: 414px){
+            width: 20vw;
+        }
+    }
+    .text{
+        text-align: justify;
+        margin: 13% 25% 13% 30%;
+        @media screen and (max-width: 414px){
+            margin: 17% 18% 18% 21%;
+        }
+        @media screen and (max-width: 414px){
+            margin: 20% 18% 20% 17%;
+        }
+        margin: 20% 18% 20% 17%;
+        h2{
+            margin-bottom: 12px;
+            color: #F4511E;
+        }
+    }
+    .user{
+        margin: 0 40%;
+        .user_title{
+            width: 13vw;
+            display: block;
+            position: relative;
+            left: 7%;
+            @media screen and (max-width: 1300px){
+                width: 14vw;
+            }
+            @media screen and (max-width: 1024px){
+                width: 21vw;
+                left: -3%;
+            }
+            @media screen and (max-width: 414px){
+                width: 36vw;
+                left: -44%;
+            }
+            @media screen and (max-width: 375px){
+                width: 38vw;
+                left: -56%;
+            }
+            
+        }
+        .user_information{
+            width: 26vw;
+            display: block;
+            margin: 40% 0 6% 0;
+            position: relative;
+            right: 53%;
+            @media screen and (max-width: 1300px){
+                width: 35vw;
+            }
+            @media screen and (max-width: 1024px){
+                width: 41vw;
+                right: 66%;
+            }
+            @media screen and (max-width: 414px){
+                width: 63vw;
+                left: -127%;
+            }
+        }
+        .user_information2{
+            width: 12vw;
+            display: block;
+            @media screen and (max-width: 1300px){
+                width: 16vw;
+            }
+            @media screen and (max-width: 1024px){
+                width: 16vw;
+            }
+            @media screen and (max-width: 414px){
+                width: 37vw;
+                position: relative;
+                right: 59%;
+                bottom: -21px;
+            }
+        }
+    }
+}
+
+
+// jobon-bottom
+
+.jobon-bottom{
+    .text{
+        background-color: #FBE9E7;
+        padding: 50px;
+        display: inline-block;
+        border-radius: 0 80px 80px 0;
+        p.content{
+            margin-bottom: 0;
+            color:#9E9E9E;
+        }
+        @media screen and (max-width: 414px){
+            margin-right: 50px;
+            padding: 37px;
+        }
+        @media screen and (max-width: 320px){
+            padding: 23px;
+        }
+    }
+    .all_page{
+        background-image: url(/images/jobon/all-page.png);
+        background-repeat: no-repeat;
+        background-size: 100% 143%;
+        height: 162vh;
+        @media screen and (max-width: 1024px){
+            background-size: 100% 100%;
+            height: 124vh;
+        }
+        @media screen and (max-width: 414px){
+            height: 105vh;
+        }
+    }
+}
+
+// jobon-footer
+
+.jobon-footer{
+    text-align: center;
+    h2{
+        background-color:#fff;
+        color: #F4511E;
+        font-family: $font-secondary;
+        padding: 20px;
+        font-weight: 900;
+    }
+}
+
+// footer
+
+// .jobon_footer{
+//     @media screen and (max-width: 320px){
+//         width: 118vw;
+//     }
+// }
+
+
+
+
+

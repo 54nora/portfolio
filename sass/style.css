@@ -8283,6 +8283,10 @@ header .colorlib-navbar-brand {
   float: left;
 }
 
+header .colorlib-navbar-brand .nora_logo img {
+  width: 60px;
+}
+
 header .colorlib-navbar-brand .colorlib-logo {
   font-size: 20px;
   text-transform: uppercase;
@@ -10270,12 +10274,6 @@ button.back-to-top {
   -webkit-transform: translateZ(0);
   -webkit-transition: all .8s ease-in-out;
   transition: all .8s ease-in-out;
-}
-
-button.back-to-top:hover,
-button.back-to-top:active,
-button.back-to-top:focus {
-  outline: 0 !important;
 }
 
 button.back-to-top.icon-arrow-up3::before {
